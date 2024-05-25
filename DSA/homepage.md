@@ -1,6 +1,6 @@
 # Homepage
 
-Problems I've solved [[here]](problems.md)
+Problems I've solved [[here]](/problems/homepage.md)
 
 ## Primary Sources
 
