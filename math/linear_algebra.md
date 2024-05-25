@@ -88,7 +88,7 @@
 14. **Applications in CS**
     - Computer  Graphics (transformations, projection, viewing)
     - Data Mining (Clustering algorithms like k-means, spectral clustering)
-    - PageRank Algorithm (requires 15.)
+    - PageRank Algorithm (Google's page algorithm - uses Markov Matrices.)
 
 ## Advanced
 
