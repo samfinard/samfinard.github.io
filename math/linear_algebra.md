@@ -1,5 +1,13 @@
 # Linear Algebra Roadmap
 
+## Resources
+
+MIT 18.06 with Gilbert Strang [(course)](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/video_galleries/video-lectures/) - great videos, lots of homework problems/exams
+
+"Introduction to Linear Algebra" by Gilbert Strang (textbook) - clear understanding of basic and applications
+
+"Linear Algebra Done Right" by Sheldon Axler (textbook) - Theoretical understanding of linear algebra without heavy reliance on determinants
+
 ## Fundamentals part I
 
 1. **Vector Spaces and Subspaces**
@@ -61,10 +69,11 @@
     - Computation and applications of pseudo-inverses
 
 10. **Eigenvalues and Eigenvectors**
-   - Definition of eigenvalues and eigenvectors
-   - Characteristic polynomial
-   - Diagonalization of matrices
-   - Applications of eigenvalues and eigenvectors
+
+- Definition of eigenvalues and eigenvectors
+- Characteristic polynomial
+- Diagonalization of matrices
+- Applications of eigenvalues and eigenvectors
 
 ## Practical Applications
 
@@ -98,11 +107,15 @@
     - Computation of Jordan canonical form
     - Applications and significance of Jordan form
 
-16. **Other Matrix Forms and Decompositions**
+16. **Dual spaces and tensors**
+
+17. **Markov Matrices and Perron-Frobenius**
+
+18. **Random Matrices**
+
+19. **Other Matrix Forms and Decompositions**
     - Schur Decomposition
       - Unitary and upper triangular matrices
     - Polar Decomposition
       - Unitary and positive semidefinite matrices
     - Block matrices and partitioned matrices
-
-15. **Markov Matrices and Perron-Frobenius** (requires stats)
