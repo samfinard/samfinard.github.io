@@ -9,4 +9,3 @@ Papers Homepage [[here]](/paper/homepage.md)
 Math Homepage [[here]](/math/homepage.md)
 
 Finance Homepage [[here]](/finance/homepage.md)
-
