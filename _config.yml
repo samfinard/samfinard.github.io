@@ -1,0 +1,17 @@
+title: Sam Finard's Website
+email: sbf9102@nyu.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  Sam Finard's personal website
+baseurl: "" # the subpath of your site, e.g. /blog
+
+github_username: samfinard
+
+# Build settings
+markdown: kramdown
+theme: minima
+# theme: jekyll-theme-minimal # remote_theme for themes not supported directly by GitHub Pages
+# remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  
