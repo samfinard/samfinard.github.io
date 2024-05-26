@@ -2,9 +2,11 @@
 
 ## Resources
 
-MIT 18.06 with Gilbert Strang [(course)](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/video_galleries/video-lectures/) - great videos, lots of homework problems/exams
+MIT 18.06 by Gilbert Strang [(course)](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/video_galleries/video-lectures/) - great videos, lots of homework problems/exams
 
-"Introduction to Linear Algebra" by Gilbert Strang (textbook) - clear understanding of basic and applications
+Linear Algebra by 3blue1brown [(video)](https://www.3blue1brown.com/topics/linear-algebra) - extremely high quality visualizations
+
+"Introduction to Linear Algebra" by Gilbert Strang (textbook) - clear understanding of basics and applications
 
 "Linear Algebra Done Right" by Sheldon Axler (textbook) - Theoretical understanding of linear algebra without heavy reliance on determinants
 
@@ -16,6 +18,8 @@ MIT 18.06 with Gilbert Strang [(course)](https://ocw.mit.edu/courses/18-06-linea
 
 1. **Vector Spaces and Subspaces**
    - Definition and properties of vector spaces
+     - "Done Right" section 1
+     - Abstract Vector Spaces 3blue1brown [(video)](https://www.youtube.com/watch?v=TgKwz5Ikpc8&ab_channel=3Blue1Brown)
    - Subspaces, span, and linear combinations
    - Basis and dimension
    - Direct sums and dimension theorem
