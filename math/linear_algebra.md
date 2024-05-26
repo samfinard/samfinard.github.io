@@ -8,6 +8,10 @@ MIT 18.06 with Gilbert Strang [(course)](https://ocw.mit.edu/courses/18-06-linea
 
 "Linear Algebra Done Right" by Sheldon Axler (textbook) - Theoretical understanding of linear algebra without heavy reliance on determinants
 
+## Papers
+
+[Randomized Numerical Linear Algebra: Foundations & Algorithms](https://arxiv.org/abs/2002.01387)
+
 ## Fundamentals part I
 
 1. **Vector Spaces and Subspaces**
@@ -50,12 +54,12 @@ MIT 18.06 with Gilbert Strang [(course)](https://ocw.mit.edu/courses/18-06-linea
      - Left null space
 
 7. **Matrix Decompositions**
-   - Matrix factorization: $A = CR$
+   - $A=CR$
      - C (column space matrix)
      - R (reduced row echelon form)
-   - LU Decomposition
+   - $A=LU$
      - Lower triangular and upper triangular matrices
-   - QR Decomposition
+   - $A=QR$
      - Orthogonal and upper triangular matrices
 
 8. **Orthogonality and Least Squares**
@@ -69,11 +73,11 @@ MIT 18.06 with Gilbert Strang [(course)](https://ocw.mit.edu/courses/18-06-linea
     - Computation and applications of pseudo-inverses
 
 10. **Eigenvalues and Eigenvectors**
-
-- Definition of eigenvalues and eigenvectors
-- Characteristic polynomial
-- Diagonalization of matrices
-- Applications of eigenvalues and eigenvectors
+    - $S=Q \Lambda Q^T$
+    - Definition of eigenvalues and eigenvectors
+    - Characteristic polynomial
+    - Diagonalization of matrices
+    - Applications of eigenvalues and eigenvectors
 
 ## Practical Applications
 
