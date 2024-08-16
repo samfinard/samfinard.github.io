@@ -8,8 +8,8 @@ main:
   - title: "Resume"
     url: /files/resume.pdf
 
-  - title: "problems"
-    url: /problems/
+  - title: "education"
+    url: /education/
   
   - title: "blog"
     url: /blog/
