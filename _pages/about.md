@@ -7,7 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-I work as a programmer/financial analyst at SMBC.
+🧑‍💻 I work as a programmer/financial analyst at SMBC.
 
-I'm a senior undergraduate student studying Computer Science at NYU.
-Once I take Operating Systems in December 2024, I will have a Bachelor of Arts in Computer Science with minors in Mathematics and Music.
+📚 Graduating from NYU in December 2024 with a major in Computer Science and minors in Mathematics and Music.
+
+#### Class Notes
+
+#### Problems Solved
+
+#### Blog
