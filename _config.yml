@@ -24,11 +24,11 @@ author:
   avatar           : "headshot.jpeg"
   name             : "Sam Finard"
   pronouns         : # example: "she/her"  
-  bio              : "Computer Science | Fixed Income"
+  bio              : # "Computer Science | Fixed Income"
   location         : # "New York City"
   employer         : "New York University"
   uri              : # URL
-  email            : "sbf9102@nyu.edu"
+  email            : # "sbf9102@nyu.edu"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -70,7 +70,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "masdranif"
+  youtube          : # "masdranif"
   zhihu            : # URL
 
 # Publication Category - The following the list of publication categories and their headings
