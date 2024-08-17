@@ -24,9 +24,9 @@ author:
   avatar           : "headshot.jpeg"
   name             : "Sam Finard"
   pronouns         : # example: "she/her"  
-  bio              : # "Computer Science | Fixed Income"
-  location         : # "New York City"
-  employer         : "New York University"
+  bio              : "Computer Science and Fixed Income"
+  location         : "New York, New York"
+  employer         : "SMBC"
   uri              : # URL
   email            : "sbf9102@nyu.edu"
 
