@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "DSA"
+permalink: /dsa/
+author_profile: true
+---
+
 # Homepage
 
 Problems I've solved [[here]](/problems/homepage.md)
