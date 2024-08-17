@@ -21,7 +21,7 @@ repository               : "samfinard/samfinard.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "headshot.png"
+  avatar           : "headshot.jpeg"
   name             : "Sam Finard"
   pronouns         : # example: "she/her"  
   bio              : "Computer Science | Fixed Income"
