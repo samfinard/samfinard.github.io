@@ -25,10 +25,10 @@ author:
   name             : "Sam Finard"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "New York City"
-  employer         : "New York University"
+  location         : # "New York City"
+  employer         : "sbf9102@nyu.edu | New York University"
   uri              : # URL
-  email            : "sbf9102@nyu.edu" 
+  email            : # "sbf9102@nyu.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
