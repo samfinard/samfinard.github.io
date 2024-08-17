@@ -8,17 +8,8 @@ main:
   - title: "Resume"
     url: /files/resume.pdf
 
-  - title: "Notes"
-    url: /notes/
+  - title: "DSA"
+    url: /dsa/
   
-  - title: "Projects"
-    url: /projects/
-
-  - title: "Problems"
-    url: /problems/
-  
-  - title: "Papers"
-    url: /papers/
-
-  - title: "Piano"
-    url: /piano/
+  - title: "Math"
+    url: /math/
