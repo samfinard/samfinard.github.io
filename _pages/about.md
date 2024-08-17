@@ -10,13 +10,3 @@ redirect_from:
 🧑‍💻 I work as a programmer/financial analyst at SMBC.
 
 📚 I am graduating NYU in December 2024 with a major in Computer Science and minors in Math and Music.
-
-### 📝 Notes
-
-### 🌌 Projects
-
-### 🤔 Problems
-
-### 📰 Papers
-
-### 🎹 Piano
