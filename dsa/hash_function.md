@@ -1,4 +1,4 @@
-## Sources:
+## Sources
 
 1. **CLRS**
 2. Stanford [[notes]](https://stanford-cs161.github.io/winter2023/assets/files/lecture8-notes.pdf)
