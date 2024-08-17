@@ -5,18 +5,14 @@ permalink: /dsa/
 author_profile: true
 ---
 
-# Homepage
+## Sources
 
-Problems I've solved [[here]](/problems/homepage.md)
-
-## Primary Sources
-
-1. Basic Algorithms Spring 2023 [[notes]](https://masdranif.notion.site/Basic-Algorithms-Spring-23-0fdc855b62e94371884c19aca4354412)
-2. **CLRS** - amazing definitions, especially Greedy, Dynamic Programming, Hashing, Graphs, and advanced topics.
-3. MIT 6.006 - especially first 8 lectures for data structures. Watch videos, read lecture notes, recitation notes, do practice problems, and attempt pset problems. Quiz/exam problems are challenging.
-4. MIT 6.046 - hashing and advanced topics.
-5. Cracking the coding interview - great practice problems
-6. 50 Algorithms Every Programmer Should Know - interesting anecdotes but not essential for learning
+1. Basic Algorithms Spring 2023 [[Notion Notes]](https://masdranif.notion.site/Basic-Algorithms-Spring-23-0fdc855b62e94371884c19aca4354412)
+2. **CLRS** - Amazing definitions, especially Greedy, Dynamic Programming, Hashing, Graphs, and advanced topics.
+3. MIT 6.006 - First 8 lectures for data structures are amazing. Watch videos, read lecture notes, recitation notes, do practice problems, and attempt pset problems. Quiz/exam problems are challenging.
+4. MIT 6.046 - hashing and advanced data structures.
+5. Cracking the Coding Interview - Classic book with great practice problems.
+6. 50 Algorithms Every Programmer Should Know - Interesting anecdotes but not essential.
 
 ### Abstract Data Type
 
@@ -45,35 +41,33 @@ Note that ADT's can be implemented by other ADT's - for example, a priority queu
 
 - Caches, locality
 - Program stack/dynamic memory allocation
-  - Pointers in C/C++ Playlist [[here]](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_)
-  - Pointers and dynamic memory - stack vs. heap video ([[here]](https://www.youtube.com/watch?v=_8-ht2AKyH4&ab_channel=mycodeschool))
+  - Pointers in C/C++ [[playlist]](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_)
+  - Pointers and dynamic memory - stack vs. heap [[video]](https://www.youtube.com/watch?v=_8-ht2AKyH4&ab_channel=mycodeschool)
   
 ### Sorting/Searching
 
-[Binary Search](binary_search.md)
-
-- Ternary search
-- Interpolate search
-- Other search?
-
-- Bubble sort
-- Insertion sort
-- Selection sort
-- Merge sort
+- [Binary Search](../dsa/binary_search.md)
+- Ternary/Interpolate search?
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- Merge Sort
   - Decision tree - **proof of $O(n \log n)$ optimality for comparison based algorithms**
-  - application when you can't store array in memory
-- Quick sort
+  - Application - when you can't store array in memory
+- Quick Sort
   - Quick select with probabilistic time analysis
-- Heap sort
-
-- Radix sort *not comparison based*
-
+- Heap Sort
+- Radix Sort
+  - not comparison based
 - Timsort
+  - Python's default sorting algorithm - derived from merge sort and insertion sort.
+
+## Data Structures
 
 ### Linear Data structures
 
-- [Array](array.md)
-- [Stack](stack.md)
+- [Array](../dsa/array.md)
+- [Stack](../dsa/stack.md)
 - Queue, dequeue
 - Priority queue
 - Linked List
@@ -82,18 +76,18 @@ Note that ADT's can be implemented by other ADT's - for example, a priority queu
 
 ### Non linear data structures
 
-- [Hash function](hash_function.md) which leads to hash tables and hash sets.
+- [Hash function](../dsa/hash_function.md) which leads to hash tables and hash sets.
 - Heap
 
-- #### Graphs
+- Graphs
+  - Tree (BST)
+  - **Search**
+    - Unweighted graphs (BFS, DFS)
+    - Weighted graphs (Dijkstra, Floyd-Warshall, APSP/SP, negative cycles)
 
-  - **Tree (BST)**
+## Fundamental Algorithmic Paradigms
 
-### Graphs - Advanced
-
-- Search
-  - Unweighted graphs (BFS, DFS)
-  - Weighted graphs (Dijkstra, Floyd-Warshall, APSP/SP, negative cycles)
+### Divide and Conquer
 
 ### Brute Force/Backtracking
 
@@ -102,10 +96,15 @@ Note that ADT's can be implemented by other ADT's - for example, a priority queu
 ### Dynamic Programming
 
 - Rod cutting
+- 0/1 knapsack
+- Subset sum
+- Longest common subsequence
+- Edit distance
+- Matrix multiplication
 
 ## Advanced
 
-### DS
+### Data Structures
 
 - Trie
 - Disjoint Set (Union, Find)
@@ -120,17 +119,25 @@ Note that ADT's can be implemented by other ADT's - for example, a priority queu
 - KMP
 - Rabin-Karp
 
-### Optimization
-
-### Number Theory
-
-- Generating primes
-
 ### Geometry
 
 - Shortest pair of points in $R^2$ and $R^3$
 - Convex hull
 
+### Number Theory
+
+- Generating primes
+
+### Algorithmic time complexity (P vs. NP)
+
+## Advanced Algorithmic Paradigms
+
+### Optimization
+
 ### Randomized algorithms
 
-#### Algorithmic time complexity (P vs. NP)
+### Branch and Bound
+
+### Approximation Algorithms
+
+### Network Flow Algorithms

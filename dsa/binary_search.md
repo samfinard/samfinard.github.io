@@ -32,7 +32,7 @@ def binary_search(arr, t):
     return -1
 ```
 
-*note: $l<r$ is incorrect because of the edge case where $n=1$?*
+*note: $l<r$ is incorrect because of the edge case where $n=1$*
 
 ### Runtime / Space Analysis
 
@@ -66,14 +66,7 @@ $$\log_a(n) = \dfrac{\log_b(n)}{k} \implies O(\log_a(n)) = O(\log_b(n)) = O(\log
 1. Binary search uses a comparison system that checks whether $a<b, a==b, a>b$ (more formally, a [binary relation](https://en.wikipedia.org/wiki/Binary_relation)) which can be applied to any [totally ordered set](https://en.wikipedia.org/wiki/Total_order) and is not restricted to numbers.
 2. In many cases it is possible to assign a unique ID number to each object in the set using a hash function, reducing the problem to an array of numbers. This becomes more difficult if objects are highly similar due to collisions.
 
-### Related problems
+### Related LeetCode Problems
 
-1. Use binary search in a [sorted matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
-
-    This problem boils down to two steps.
-    1. Figure out which row $t$ is in
-    2. Use binary search on that row
-
-    So this problem reduces to figuring out which row $t$ is in.
-
-2. Search a [rotated sorted array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+1. [Saerch a 2d sorted matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
+2. [Search a rotated sorted array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
