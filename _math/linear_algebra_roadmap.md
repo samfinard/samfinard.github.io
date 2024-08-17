@@ -11,6 +11,7 @@ Linear Algebra by 3blue1brown [(video)](https://www.3blue1brown.com/topics/linea
 "Linear Algebra Done Right" by Sheldon Axler (textbook) - Theoretical understanding of linear algebra without heavy reliance on determinants
 
 ## Extra Resources
+
 Instead of computing the most exact answer possible as fast as possible (NLA), in Rand-NLA we compute a close enough answer as fast as possible with high probability.
 
 Randomized Numerical Linear Algebra: Foundations & Algorithms [[paper]](https://arxiv.org/abs/2002.01387)
