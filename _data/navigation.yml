@@ -9,7 +9,7 @@ main:
     url: /files/resume.pdf
 
   - title: "DSA"
-    url: /dsa/
+    url: /dsa/homepage.md
   
   - title: "Math"
     url: /math/
