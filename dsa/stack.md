@@ -1,5 +1,3 @@
-# Stack
-
 ## 1. What is a stack?
 
 A stack is a Last In First Out data (LIFO) data structure, meaning the first elements to get removed are the most recently added elements. Imagine a stack of paper which you are continuously adding more paper to. You can only add more paper to the top of the stack, and you can only read the top sheet which is the most recently added sheet. If you want to remove 1 piece of paper, it's easiest to remove the top sheet. This is exactly how a stack in Computer Science works.

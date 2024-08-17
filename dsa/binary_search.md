@@ -1,5 +1,3 @@
-# Binary Search
-
 ## Problem
 
 Given a sorted array $A$ and an object $t$, return the index of $A[t]$ - (or $-1$ if it's not in the array.)
