@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "DSA"
+title: "Data Structures & Algorithms"
 permalink: /dsa/
 author_profile: true
 ---
