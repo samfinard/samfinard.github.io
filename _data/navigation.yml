@@ -13,3 +13,6 @@ main:
   
   - title: "Math"
     url: /math/
+
+  - title: "Papers"
+    url: /papers/
