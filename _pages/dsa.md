@@ -5,14 +5,7 @@ permalink: /dsa/
 author_profile: true
 ---
 
-## Sources
-
-1. Basic Algorithms Spring 2023 [[Notion Notes]](https://masdranif.notion.site/Basic-Algorithms-Spring-23-0fdc855b62e94371884c19aca4354412)
-2. **CLRS** - Amazing definitions, especially Greedy, Dynamic Programming, Hashing, Graphs, and advanced topics.
-3. MIT 6.006 - First 8 lectures for data structures are amazing. Watch videos, read lecture notes, recitation notes, do practice problems, and attempt pset problems. Quiz/exam problems are challenging.
-4. MIT 6.046 - hashing and advanced data structures.
-5. Cracking the Coding Interview - Classic book with great practice problems.
-6. 50 Algorithms Every Programmer Should Know - Interesting anecdotes but not essential.
+### Sources used [[here]](../dsa/sources.md)
 
 ### Abstract Data Type
 
