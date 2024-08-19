@@ -16,6 +16,7 @@
 - [Algorithms for competitive programming](https://cp-algorithms.com/)
 - [Tech Interview Handbook](https://www.techinterviewhandbook.org/coding-interview-study-plan/)
 - [Iuzhenglaichn's gitbook](https://liuzhenglaichn.gitbook.io/algorithm)
+- [Stoimen's web log](http://www.stoimen.com/category/algorithms/)
 
 ### Visualizations
 
