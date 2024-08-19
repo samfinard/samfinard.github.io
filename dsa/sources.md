@@ -11,7 +11,6 @@
 
 - [Galin Colin](https://www.youtube.com/@ColinGalen)
 
-
 ## Websites
 
 - [Algorithms for competitive programming](https://cp-algorithms.com/)
