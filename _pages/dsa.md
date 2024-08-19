@@ -31,7 +31,6 @@ Note that ADT's can be implemented by other ADT's - for example, a priority queu
 - Types of running time ($O, \Theta, \Omega$, worst case, best case, amortized, expected)
 - Sums, recurrence relation, logarithm rules, basic probability
 - primitive data types, floating point
-
 - Caches, locality
 - Program stack/dynamic memory allocation
   - Pointers in C/C++ [[playlist]](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_)
@@ -71,7 +70,6 @@ Note that ADT's can be implemented by other ADT's - for example, a priority queu
 
 - [Hash function](../dsa/hash_function.md) which leads to hash tables and hash sets.
 - Heap
-
 - Graphs
   - Tree (BST)
   - **Search**
