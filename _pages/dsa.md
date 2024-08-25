@@ -27,7 +27,6 @@ An abstract data type is different from the particular form of the data structur
 Note that ADT's can be implemented by other ADT's - for example, a priority queue can be implemented using a heap.
 
 ## The Basics
-Should be familiar with
 
 - Types of running time ($O, \Theta, \Omega$, worst case, best case, amortized, expected)
 - Sums, recurrence relation, logarithm rules, basic probability
@@ -37,16 +36,24 @@ Should be familiar with
   - Pointers in C/C++ [[playlist]](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_)
   - Pointers and dynamic memory - stack vs. heap [[video]](https://www.youtube.com/watch?v=_8-ht2AKyH4&ab_channel=mycodeschool)
   
-### Sorting/Searching
+### Sorting
 
-- Bubble Sort
-- Insertion Sort
-- Selection Sort
+#### Most Important
+
 - Merge Sort
   - Decision tree - **proof of $O(n \log n)$ optimality for comparison based algorithms**
   - Application - when you can't store array in memory
 - Quick Sort
   - Quick select with probabilistic time analysis
+
+#### Good to know
+
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+
+#### Interesting
+
 - Heap Sort
 - Radix Sort
   - not comparison based
