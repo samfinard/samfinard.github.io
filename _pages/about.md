@@ -11,4 +11,6 @@ redirect_from:
 
 📚 I am graduating NYU in December 2024 with a major in Computer Science and minors in Math and Music.
 
-Interested in Fixed Income and [Data Structures & Algorithms](../_pages/dsa.md).
+Interested in Fixed Income and Computer Science.
+
+Data Structures & Algorithms Posts [[here]](../_pages/dsa.md).
