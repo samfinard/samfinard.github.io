@@ -17,4 +17,5 @@ Interested in Fixed Income and Computer Science.
 
 ## Posts
 
- - [Data Structures & Algorithms](../_pages/dsa.md)
+- [Data Structures & Algorithms](../_pages/dsa.md)
+- [Interesting Papers](../_pages/papers.md)
