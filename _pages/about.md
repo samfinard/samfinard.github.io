@@ -25,3 +25,4 @@ Interested in Fixed Income and Computer Science.
 - Mathematical Techniques in Finance: An Introduction by Amir Sadr (Textbook)
 - [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf) (Paper)
 - [Is the Future of Linear Algebra.. Random?](https://www.youtube.com/watch?v=6htbyY3rH1w) (video)
+- [Intro to Relational DBMS](https://www.youtube.com/watch?v=APqWIjtzNGE&t=79s) (CMU course)
