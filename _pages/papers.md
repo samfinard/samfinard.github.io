@@ -34,6 +34,9 @@ author_profile: true
 - [Tidy data](https://vita.had.co.nz/papers/tidy-data.pdf): how to clean and prepare data to faciliate effective analysis.
 - [MapReduce](https://research.google.com/archive/mapreduce-osdi04.pdf): Programming model for processing large data sets that don't fit into memory. (Google)
 - [One trillion edges: graph processing at Facebook-scale](http://www.vldb.org/pvldb/vol8/p1804-ching.pdf): Processing massive graphs (Facebook)
+- [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf) (Paper)
+- [Intro to Relational DBMS](https://www.youtube.com/watch?v=APqWIjtzNGE&t=79s) (CMU course)
+- [Relational Model of Data](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf) (Paper): Paper from 1970 that started relational DBMS.
 
 ### AI
 
@@ -41,3 +44,11 @@ author_profile: true
 - [Deep learning](https://www.nature.com/articles/nature14539): Review paper of deep learning by 3 godfathers of AI
 - [Generating text with Recurrent Neural Networks](https://icml.cc/2011/papers/524_icmlpaper.pdf): Early and interesting application of RNNs. (Ilya Sutskever before OpenAI)
 - [Improving language understanding with unsupervised learning](https://openai.com/index/language-unsupervised/): Precursor to ChatGPT. (OpenAI)
+
+### Finance
+
+- Mathematical Techniques in Finance: An Introduction by Amir Sadr (Textbook)
+
+### Math
+
+- [Is the Future of Linear Algebra.. Random?](https://www.youtube.com/watch?v=6htbyY3rH1w) (video)
