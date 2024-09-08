@@ -37,6 +37,9 @@ author_profile: true
 - [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf) (Paper)
 - [Intro to Relational DBMS](https://www.youtube.com/watch?v=APqWIjtzNGE&t=79s) (CMU course)
 - [Relational Model of Data](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf) (Paper): Paper from 1970 that started relational DBMS.
+  - Relation between two sets is a subset of their Cartesian product
+  - Seperation between querying data and growth in data types/changes in data representation
+  - Defines fundamental operations on relations (join, projection) and two types of data redundency
 
 ### AI
 
