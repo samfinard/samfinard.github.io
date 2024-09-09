@@ -12,7 +12,7 @@
 
 ### Lecture Notes
 
-1. 9/5/24 - [description here](link here)
+1. 9/5/24 - [What is an Operating System?](../os/intro.md)
 
 ### Textbooks
 
