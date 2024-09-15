@@ -108,7 +108,9 @@ Note that ADT's can be implemented by other ADT's - for example, a priority queu
 - Trie
 - Disjoint Set (Union, Find)
 - **Tree extensions**
-  - AVL, B-Tree, Red-Black
+  - AVL Tree
+  - [B-tree](../dsa/B_tree.md)
+  - Red-Black Tree
   - Merkle trees
 - Authenticated DS
 - Segment Tree

@@ -12,8 +12,6 @@
 
 ### Lecture Notes
 
-1. 9/5/24 - [What is an Operating System?](../os/intro.md)
-
 ### Textbooks
 
 - Operating Systems Concepts, 10th edition (get e-book)
