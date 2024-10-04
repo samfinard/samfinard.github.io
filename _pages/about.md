@@ -18,5 +18,4 @@ Interested in Fixed Income and Computer Science.
 ## Posts
 
 - [Data Structures & Algorithms](../_pages/dsa.md)
-- [Operating Systems](../_pages/os.md)
 - [Interesting Papers](../_pages/papers.md)
