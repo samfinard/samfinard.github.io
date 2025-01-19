@@ -52,4 +52,4 @@
 - Algorithmic Design: supplement to CLRS
 - [Algorithms Illuminated](https://www.algorithmsilluminated.org/) by Tim Roughgarden
 - Grokking the Coding Interview: Classic interview questions with detailed explanations.
-- Heard on Wall Street: wall street brainteasers good material on mentality/attitude.
+- Heard on Wall Street: wall street brainteasers - good material on mentality/attitude.
