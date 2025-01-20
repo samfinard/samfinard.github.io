@@ -10,9 +10,6 @@ main:
 
   - title: "DSA"
     url: /dsa/
-  
-  - title: "Math"
-    url: /math/
 
   - title: "Papers"
     url: /papers/
