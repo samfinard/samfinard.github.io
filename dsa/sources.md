@@ -1,5 +1,3 @@
-# Study Sources
-
 ## Interview Components
 
 1. Behavioral ([STAR method](https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/)). Be able to answer **anything** from your resume.
