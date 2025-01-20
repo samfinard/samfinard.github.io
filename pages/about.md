@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
-
 🧑‍💻 Working as a financial analyst supporting the trading desk at SMBC
 
 💿 Comfortable implementing technical solutions using Python, SQLite, xlwings,  COM objects, and VBA
