@@ -5,9 +5,7 @@ permalink: /resources/
 author_profile: true
 ---
 
-## [Resources](https://spangle-crocodile-8b0.notion.site/181126a9cff88087bce2d4dfe24d2db1?v=c65e9cf6da394a50aa2cb77ff67145e1&pvs=4)
-
-This is a Notion table containing all textbooks and academic papers I've read since June 2023. There are also a few videos and courses.
+[This](https://spangle-crocodile-8b0.notion.site/181126a9cff88087bce2d4dfe24d2db1?v=c65e9cf6da394a50aa2cb77ff67145e1&pvs=4) is a Notion table containing all textbooks and academic papers I've read since June 2023. There are also a few videos and courses.
 
 ## Where to find good papers
 
