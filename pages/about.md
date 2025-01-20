@@ -19,6 +19,6 @@ redirect_from:
 
 I enjoy learning about Data Structures & Algorithms because it gives me a foundational base which all my solutions as a software engineer build upon.
 
-### [Interesting Papers](../pages/papers.md)
+### [Resources](../pages/resources.md)
 
-This is a complete catalogue of all the academic papers/textbooks I've read since June 2023. Most of them are about data storage, data processing at scale,  and artifical intelligence. Recently I have been reading more quantitative finance and mathematics papers.
+This is a complete catalogue of all the academic papers/textbooks I've read since June 2023, as well as some tips on where to find good papers and how to read papers so you retain information. Most of the resources are papers about data storage, data processing at scale, and artifical intelligence, but recently I have been reading more quantitative finance and mathematics papers.
