@@ -14,6 +14,8 @@ author_profile: true
 - [arxiv](https://arxiv.org/) - Thorough repository for Math, CS, and Quantitative Finance papers.
 - [jstor](https://www.jstor.org/) - High quality academic papers with detailed querying options so you can search for exactly what you want. *Requires school login.*
 - [google scholar](https://scholar.google.com/) - The standard free search service for academic content.
+- [github.com/papers-we-love](https://github.com/papers-we-love/papers-we-love) - Amazing curated list of papers that cover the entire breadth of CS.
+
 
 ## How to read papers
 
