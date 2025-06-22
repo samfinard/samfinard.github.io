@@ -7,15 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-🧑‍💻 Working as a financial analyst supporting the trading desk at SMBC
+🧑‍💻 Working as a Associate in the Trading Risk and Control team at SMBC
 
-💿 Comfortable implementing technical solutions using Python, SQLite, xlwings,  COM objects, and VBA
+💿 Comfortable solving technical problems using Python, SQLite, COM objects, and VBA
 
 📚 Graduated NYU in December 2024 with a major in Computer Science and minors in Math and Music
 
 ### [Data Structures & Algorithms](../pages/dsa.md)
 
-I enjoy learning about Data Structures & Algorithms because it gives me a foundational base which all my solutions as a software engineer build upon.
+I enjoy learning about Data Structures & Algorithms because programs boil down to transformations applied on data. Data structures explain how data is organized and algorithms manipulate data.
 
 ### [Resources](../pages/resources.md)
 
