@@ -24,7 +24,7 @@ An abstract data type is different from the particular form of the data structur
 | Heap | Binary Heap, Fibonacci Heap|
 | Bloom Filter | Bit Array|
 
-Note that ADT's can be implemented by other ADT's - for example, a priority queue can be implemented using a heap.
+Note that ADTs can be implemented by other ADTs - for example, a priority queue can be implemented using a heap.
 
 ## The Basics
 

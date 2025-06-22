@@ -15,7 +15,6 @@ author_profile: true
 - [jstor](https://www.jstor.org/) - High quality academic papers with detailed querying options so you can search for exactly what you want. *Requires school login.*
 - [google scholar](https://scholar.google.com/) - The standard free search service for academic content.
 
-
 ## How to read papers
 
 *Inspired from [Career Advice / Reading Research Papers](https://www.youtube.com/watch?v=733m6qBH-jI) by Andrew Ng*

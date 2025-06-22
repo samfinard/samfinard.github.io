@@ -19,4 +19,4 @@ I enjoy learning about Data Structures & Algorithms because programs boil down t
 
 ### [Resources](../pages/resources.md)
 
-This is a complete catalogue of all the academic papers/textbooks I've read since June 2023, as well as some tips on where to find good papers and how to read papers so you retain information. Most of the resources are papers about data storage, data processing at scale, and artifical intelligence, but recently I have been reading more quantitative finance and mathematics papers.
+This is a complete catalogue of everything I've read since June 2023, as well as some tips on where to find good papers and how to read papers so you retain information. Most of the resources are papers about data storage, data processing at scale, and artifical intelligence, but recently I have been reading more quantitative finance and mathematics papers. There are some non-academic resources as well.
