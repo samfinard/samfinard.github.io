@@ -26,3 +26,7 @@ group :jekyll_plugins do
   gem 'hawkins'
   gem "webrick", "~> 1.8"
 end
+
+group :test do
+  gem "html-proofer", "~> 5.0"
+end
