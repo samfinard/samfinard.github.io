@@ -13,3 +13,11 @@ package-lock.json
 
 # Ignore markdownlint config
 markdownlint.yaml
+
+# macOS
+.DS_Store
+
+# Private / job search (not for public deploy)
+job_tracker.html
+job_tracker.xlsx
+private/

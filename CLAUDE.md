@@ -4,108 +4,32 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This is a personal academic portfolio website built with Jekyll and the Academic Pages theme, hosted on GitHub Pages at samfinard.github.io. The site showcases work in Computer Science, Data Structures & Algorithms, and Finance.
+Personal site for Sam Finard, served by GitHub Pages at samfinard.github.io. It is a Jekyll site built on a trimmed-down fork of the Academic Pages theme (itself a fork of Minimal Mistakes). The site has three things: an About page, a set of Data Structures & Algorithms notes, and a Resources page. It deploys automatically when you push to `master`. There is no CI workflow and no test suite.
 
-## Development Commands
+## Commands
 
-### Local Development
 ```bash
-# Install Ruby dependencies
-bundle install
+bundle install                              # Ruby deps (github-pages gem pins Jekyll + plugins)
+bundle exec jekyll serve -l -H localhost    # local server with livereload; restart after _config.yml edits
 
-# Serve site locally with live reload
-bundle exec jekyll serve -l -H localhost
-
-# Note: _config.yml changes require server restart
+npm install && npm run build:js             # rebuild assets/js/main.min.js (only needed after editing assets/js/)
+npm run watch:js                            # rebuild on JS changes
 ```
 
-### JavaScript Build
-```bash
-# Install Node dependencies
-npm install
+Markdown lint config is in `.markdownlint.yaml`. It turns off line length (MD013), duplicate headings (MD024), ordered-list numbering (MD029), and first-line-heading (MD041).
 
-# Build minified JS (uglifies jQuery and custom scripts)
-npm run build:js
+## How content is wired
 
-# Watch for JS changes and rebuild
-npm run watch:js
-```
+- **Top-level pages** are in `pages/` and get their URL from a `permalink` in front matter: `about.md` → `/`, `dsa.md` → `/dsa/`, `resources.md` → `/resources/`. `_config.yml` includes `_pages`, but this repo uses `pages/`.
+- **The header nav** comes from `_data/navigation.yml`: Resume (`/files/resume.pdf`), DSA, Resources. To update the resume, replace `files/resume.pdf`.
+- **DSA articles** (`dsa/*.md`) and **finance notes** (`finance/*.md`) have **no front matter**. Pages link to them with relative `.md` paths, for example `[Stack](../dsa/stack.md)`. This works because GitHub Pages turns on `jekyll-optional-front-matter`, `jekyll-relative-links`, and `jekyll-default-layout` by default, and the `github-pages` gem does the same locally. Keep using relative `.md` links, not hand-written `.html` URLs.
+- **New DSA articles** start from `dsa/template.md`: problem, intuitive pseudocode, Python (plus C/C++ if it helps), runtime/space analysis, and a memory aid. Then add a link to the article from the topic outline in `pages/dsa.md`. Many entries there are still plain text with no link yet.
+- **Math** is written as `$...$` inline LaTeX and rendered by MathJax. Two copies are loaded: v2 in `_includes/head.html`, which sets the `$` delimiters, and v3 in `_includes/head/custom.html`.
+- **Author sidebar** content (bio, employer, email, GitHub, LinkedIn, avatar `images/headshot.jpeg`) comes from the `author:` block in `_config.yml`. Edit it there, not in `_includes/author-profile.html`.
+- **Layouts:** the only ones left are `default`, `single`, `archive`, `archive-taxonomy`, and `compress`. The theme's collections (publications, talks, teaching, portfolio), their layouts, and the `markdown_generator/` scripts were removed on purpose. Don't add them back.
 
-## Site Architecture
+## Gotchas
 
-### Jekyll Collections & Content Structure
-
-The site uses Jekyll collections defined in `_config.yml`:
-- **publications**: Academic papers and journal articles
-- **talks**: Conference presentations
-- **teaching**: Teaching materials
-- **portfolio**: Project showcases
-
-Content organization:
-- `pages/`: Main site pages (About, DSA, Resources)
-- `dsa/`: Data Structures & Algorithms articles following `template.md` structure
-- `finance/`: Finance-related content (terminology, curves)
-- `markdown_generator/`: Python scripts to generate markdown from TSV/BibTeX data
-
-### Content Templates
-
-DSA articles follow this structure (see `dsa/template.md`):
-1. Problem description
-2. Pseudocode/intuitive explanation
-3. Python code (C++ if applicable)
-4. Runtime/space complexity analysis
-5. Memory aids (external references, use cases)
-
-### Layout System
-
-- `_layouts/`: Page templates (single, archive, talk, etc.)
-- `_includes/`: Reusable components (header, footer, author profile, SEO, analytics)
-- `_sass/`: SCSS stylesheets compiled to CSS
-
-Key includes:
-- `author-profile.html`: Sidebar with bio and social links
-- `seo.html`: Meta tags for search engines
-- `analytics.html`: Analytics provider integration
-
-### Navigation & Configuration
-
-- `_data/navigation.yml`: Header navigation menu structure
-- `_config.yml`: Central configuration for site metadata, author info, collections, plugins
-
-Site navigation order: Resume → DSA → Resources
-
-### Author Profile Configuration
-
-The author profile sidebar is controlled by `_config.yml` under the `author:` section. To modify social links or biographical info, edit this section rather than the includes directly.
-
-## Content Development Workflow
-
-When adding new DSA content:
-1. Use `dsa/template.md` as the starting structure
-2. Include practical examples with runtime analysis
-3. Link from `pages/dsa.md` main index
-4. Follow existing pattern: problem → code → analysis → memory aid
-
-When modifying publications/talks:
-1. Edit TSV files in `markdown_generator/`
-2. Run corresponding Python script or Jupyter notebook to regenerate markdown
-3. Commit both TSV and generated markdown
-
-## Theme Details
-
-Based on Academic Pages (fork of Minimal Mistakes Jekyll theme). Key customizations are in:
-- Author profile fields in `_config.yml`
-- Navigation structure in `_data/navigation.yml`
-- Custom SCSS in `_sass/`
-
-## GitHub Pages Deployment
-
-- Site deploys automatically on push to master branch
-- Uses `github-pages` gem for GitHub Pages compatibility
-- Plugins: jekyll-feed, jekyll-sitemap, jekyll-paginate, jekyll-redirect-from
-
-## Important Notes
-
-- Jekyll server must be restarted after `_config.yml` changes
-- JavaScript changes require running `npm run build:js` to minify
-- All content pages use YAML front matter with layout, title, permalink, and author_profile settings
+- `finance/curve.md` is currently a copy of `pages/dsa.md`, including front matter with `permalink: /dsa/`. That means two pages compete for `/dsa/`. Nothing links to `finance/` yet.
+- `.gitignore` excludes private job-search files (`job_tracker.*` and `private/`). They must never be committed, because everything in this repo is published.
+- `README.md` holds only a short to-do list (homepage bio and photo; a tag-sorted, date-ordered DSA article list).
