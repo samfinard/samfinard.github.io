@@ -1,0 +1,43 @@
+name: External link check
+
+# Weekly check that outbound links still resolve. External sites change without
+# a commit here, so this runs on a schedule rather than on push/PR, and it never
+# deploys. Run it by hand from the Actions tab with "Run workflow".
+on:
+  schedule:
+    - cron: "17 9 * * 1" # Mondays 09:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      # Same as the internal check in test.yml, plus external links.
+      # --ignore-status-codes: responses that mean "bot blocked", not "gone":
+      #   403 = Cloudflare bot challenges (leetcode.com, codepen.io) that load fine in a browser
+      #   429 = rate limiting (github.com often does this to CI runners)
+      #   999 = LinkedIn's response to every non-browser client
+      # --swap-urls: links to this site itself are absolute (site.url), so check them
+      #   against the fresh build in _site instead of the previously deployed site.
+      - name: Check external links
+        run: >-
+          bundle exec htmlproofer _site
+          --no-enforce-https
+          --ignore-status-codes "403,429,999"
+          --swap-urls '^https\://samfinard\.github\.io:'
