@@ -40,34 +40,20 @@ include:
   - .htaccess
   - files
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .github
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - CHANGELOG
-  - Capfile
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json*
-  - Rakefile
-  - README
-  - tmp
-  - tests
+  # repo tooling and docs
   - CLAUDE.md
+  - README.md
+  - LICENSE
+  - Gemfile
+  - package.json
+  - node_modules
+  - vendor
   - pyproject.toml
   - uv.lock
-  - vendor
+  - tests
+  # JS sources (only the bundled assets/js/main.min.js is served)
+  - assets/js/_main.js
+  - assets/js/plugins
   # drafts and authoring templates (not published)
   - dsa/template.md
   - dsa/B_tree.md
