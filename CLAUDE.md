@@ -19,7 +19,7 @@ python3 -m unittest discover -s tests -v    # source checks (stdlib only, no Jek
 python3 -m unittest tests.test_site.TestSite.test_relative_links_resolve   # a single test
 ```
 
-CI (`.github/workflows/test.yml`) runs on every push and PR: the `tests/` source checks, then `jekyll build`, then `htmlproofer _site --disable-external` to catch broken internal links and images. Local system Ruby on this machine is 2.6, which is too old for `github-pages`, so the full build is only verified in CI.
+CI (`.github/workflows/test.yml`) runs on every push and PR: the `tests/` source checks, then `jekyll build`, then `htmlproofer _site --disable-external` to catch broken internal links and images. Its `deploy` job publishes `_site` only for pushes to `master` that pass. Local system Ruby on this machine is 2.6, which is too old for `github-pages`, so the full build is only verified in CI.
 
 Markdown lint config is in `.markdownlint.yaml`. It turns off line length (MD013), duplicate headings (MD024), ordered-list numbering (MD029), and first-line-heading (MD041).
 

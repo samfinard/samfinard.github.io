@@ -1,8 +1,12 @@
-name: Test
+name: Test and deploy
 
+# Every push and PR runs the tests. Only a push to master whose tests pass is deployed.
 on:
   push:
   pull_request:
+
+permissions:
+  contents: read
 
 jobs:
   test:
@@ -20,6 +24,28 @@ jobs:
 
       - name: Build site
         run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
 
       - name: Check links and images in built site
         run: bundle exec htmlproofer _site --disable-external --no-enforce-https
+
+      - uses: actions/upload-pages-artifact@v4
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+
+  deploy:
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
