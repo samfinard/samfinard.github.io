@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-Personal site for Sam Finard, served by GitHub Pages at samfinard.github.io. It is a Jekyll site built on a trimmed-down fork of the Academic Pages theme (itself a fork of Minimal Mistakes). The site has three things: an About page, a set of Data Structures & Algorithms notes, and a Resources page. It deploys automatically when you push to `master`.
+Personal site for Sam Finard, served by GitHub Pages at samfinard.github.io. It is a Jekyll site built on a trimmed-down fork of the Academic Pages theme (itself a fork of Minimal Mistakes). The site has three things: an About page, a set of Data Structures & Algorithms notes, and a Resources page. A push to `master` deploys only if CI passes (Pages deploys from GitHub Actions, not from the branch).
 
 ## Commands
 
