@@ -1,8 +1,9 @@
-"""Source-level checks for the site. Run with: python3 -m unittest discover -s tests"""
+"""Source-level checks for the site. Run with: uv run pytest"""
 
 import re
-import unittest
 from pathlib import Path
+
+import pytest
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIRS = ["pages", "dsa", "finance"]
@@ -36,42 +37,45 @@ def is_external(target):
     return target.startswith(("http://", "https://", "mailto:", "#"))
 
 
-class TestSite(unittest.TestCase):
-    def test_relative_links_resolve(self):
-        for path in content_files():
-            for target in MD_LINK.findall(path.read_text(encoding="utf-8")):
-                if is_external(target):
-                    continue
-                with self.subTest(file=path.relative_to(ROOT), link=target):
-                    local = target.split("#", 1)[0]
-                    resolved = ROOT / local.lstrip("/") if local.startswith("/") else path.parent / local
-                    self.assertTrue(resolved.exists(), f"{target} does not exist")
-
-    def test_permalinks_unique(self):
-        seen = {}
-        for path in content_files():
-            link = front_matter(path).get("permalink")
-            if link:
-                with self.subTest(permalink=link):
-                    self.assertNotIn(link, seen, f"{path.name} and {seen.get(link)} share {link}")
-                    seen[link] = path.name
-
-    def test_nav_targets_exist(self):
-        links = permalinks()
-        nav = (ROOT / "_data" / "navigation.yml").read_text(encoding="utf-8")
-        for url in NAV_URL.findall(nav):
-            if is_external(url):
-                continue
-            with self.subTest(url=url):
-                self.assertTrue(url in links or (ROOT / url.lstrip("/")).is_file(), f"no page or file for {url}")
-
-    def test_homepage_exists(self):
-        self.assertIn("/", permalinks())
-
-    def test_author_avatar_exists(self):
-        avatar = AVATAR.search((ROOT / "_config.yml").read_text(encoding="utf-8")).group(1)
-        self.assertTrue((ROOT / "images" / avatar).is_file(), f"images/{avatar} missing")
+def local_links():
+    return [
+        pytest.param(path, target, id=f"{path.relative_to(ROOT)}->{target}")
+        for path in content_files()
+        for target in MD_LINK.findall(path.read_text(encoding="utf-8"))
+        if not is_external(target)
+    ]
 
 
-if __name__ == "__main__":
-    unittest.main()
+def nav_urls():
+    nav = (ROOT / "_data" / "navigation.yml").read_text(encoding="utf-8")
+    return [url for url in NAV_URL.findall(nav) if not is_external(url)]
+
+
+@pytest.mark.parametrize("path, target", local_links())
+def test_relative_link_resolves(path, target):
+    local = target.split("#", 1)[0]
+    resolved = ROOT / local.lstrip("/") if local.startswith("/") else path.parent / local
+    assert resolved.exists(), f"{target} does not exist"
+
+
+def test_permalinks_unique():
+    seen = {}
+    for path in content_files():
+        link = front_matter(path).get("permalink")
+        if link:
+            assert link not in seen, f"{path.name} and {seen[link]} share {link}"
+            seen[link] = path.name
+
+
+@pytest.mark.parametrize("url", nav_urls())
+def test_nav_target_exists(url):
+    assert url in permalinks() or (ROOT / url.lstrip("/")).is_file(), f"no page or file for {url}"
+
+
+def test_homepage_exists():
+    assert "/" in permalinks()
+
+
+def test_author_avatar_exists():
+    avatar = AVATAR.search((ROOT / "_config.yml").read_text(encoding="utf-8")).group(1)
+    assert (ROOT / "images" / avatar).is_file(), f"images/{avatar} missing"

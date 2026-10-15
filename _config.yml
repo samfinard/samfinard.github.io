@@ -181,6 +181,8 @@ exclude:
   - tmp
   - tests
   - CLAUDE.md
+  - pyproject.toml
+  - uv.lock
   - vendor
 keep_files:
   - .git
