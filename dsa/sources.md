@@ -3,7 +3,7 @@
 1. Behavioral ([STAR method](https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/)). Be able to answer **anything** from your resume.
 2. LeetCode 2-3x medium with 20-30 min each. *need to explain while solving*
 3. System Design
-4. [Design Data Intensive Applications](https://github.com/lafengnan/ebooks-1/blob/master/Designing%20Data%20Intensive%20Applications.pdf)
+4. [Design Data Intensive Applications](https://dataintensive.net/)
 
 ## YT Channels
 

@@ -19,7 +19,9 @@ uv run pytest                               # source checks (pytest in a uv env,
 uv run pytest -k test_nav_target_exists     # a single test (links/nav targets are parametrized per item)
 ```
 
-CI (`.github/workflows/test.yml`) runs on every push and PR: the `tests/` source checks (`uv run --locked pytest`, so commit `uv.lock` with any dependency change), then `jekyll build`, then `htmlproofer _site --disable-external` to catch broken internal links and images. Its `deploy` job publishes `_site` only for pushes to `master` that pass. Local system Ruby on this machine is 2.6, which is too old for `github-pages`, so the full build is only verified in CI.
+CI (`.github/workflows/test.yml`) runs on every push and PR: the `tests/` source checks (`uv run --locked pytest`, so commit `uv.lock` with any dependency change), then `jekyll build`, then `htmlproofer _site --disable-external` to catch broken internal links and images. Its `deploy` job publishes `_site` only for pushes to `master` that pass. `.github/workflows/links.yml` checks external links weekly (and on manual dispatch); it ignores 403/429/999, which are bot-blocking responses from LeetCode, GitHub and LinkedIn.
+
+Local Jekyll needs Homebrew `ruby@3.3` on `PATH` (`/opt/homebrew/opt/ruby@3.3/bin` and `/opt/homebrew/lib/ruby/gems/3.3.0/bin`), matching CI. System Ruby 2.6 is too old, and Ruby 3.4+ fails because `github-pages` needs the no-longer-bundled `csv` gem.
 
 Markdown lint config is in `.markdownlint.yaml`. It turns off line length (MD013), duplicate headings (MD024), ordered-list numbering (MD029), and first-line-heading (MD041).
 

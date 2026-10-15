@@ -141,3 +141,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# Front-matter-less .md files become pages; don't also publish the raw .md copies
+optional_front_matter:
+  remove_originals: true
