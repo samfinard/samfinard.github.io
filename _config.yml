@@ -68,6 +68,9 @@ exclude:
   - pyproject.toml
   - uv.lock
   - vendor
+  # drafts and authoring templates (not published)
+  - dsa/template.md
+  - dsa/B_tree.md
 keep_files:
   - .git
   - .svn
