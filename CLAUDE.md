@@ -15,11 +15,11 @@ bundle exec jekyll serve -l -H localhost    # local server with livereload; rest
 npm install && npm run build:js             # rebuild assets/js/main.min.js (only needed after editing assets/js/)
 npm run watch:js                            # rebuild on JS changes
 
-python3 -m unittest discover -s tests -v    # source checks (stdlib only, no Jekyll needed)
-python3 -m unittest tests.test_site.TestSite.test_relative_links_resolve   # a single test
+uv run pytest                               # source checks (pytest in a uv env, no Jekyll needed)
+uv run pytest -k test_nav_target_exists     # a single test (links/nav targets are parametrized per item)
 ```
 
-CI (`.github/workflows/test.yml`) runs on every push and PR: the `tests/` source checks, then `jekyll build`, then `htmlproofer _site --disable-external` to catch broken internal links and images. Its `deploy` job publishes `_site` only for pushes to `master` that pass. Local system Ruby on this machine is 2.6, which is too old for `github-pages`, so the full build is only verified in CI.
+CI (`.github/workflows/test.yml`) runs on every push and PR: the `tests/` source checks (`uv run --locked pytest`, so commit `uv.lock` with any dependency change), then `jekyll build`, then `htmlproofer _site --disable-external` to catch broken internal links and images. Its `deploy` job publishes `_site` only for pushes to `master` that pass. Local system Ruby on this machine is 2.6, which is too old for `github-pages`, so the full build is only verified in CI.
 
 Markdown lint config is in `.markdownlint.yaml`. It turns off line length (MD013), duplicate headings (MD024), ordered-list numbering (MD029), and first-line-heading (MD041).
 
@@ -35,6 +35,6 @@ Markdown lint config is in `.markdownlint.yaml`. It turns off line length (MD013
 
 ## Gotchas
 
-- Every `.md` file outside the `exclude:` list in `_config.yml` is published, even with no front matter (e.g. `dsa/template.md`, `finance/curve.md`). Add non-site docs to `exclude:`. `CLAUDE.md` and `tests/` are excluded.
+- Every `.md` file outside the `exclude:` list in `_config.yml` is published, even with no front matter (e.g. `dsa/template.md`, `finance/curve.md`). Add non-site docs to `exclude:`. `CLAUDE.md`, `tests/`, `pyproject.toml` and `uv.lock` are excluded.
 - `.gitignore` excludes private job-search files (`job_tracker.*` and `private/`). They must never be committed, because everything in this repo is published.
 - `README.md` holds only a short to-do list (homepage bio and photo; a tag-sorted, date-ordered DSA article list).

@@ -21,3 +21,7 @@ markdownlint.yaml
 job_tracker.html
 job_tracker.xlsx
 private/
+# Python (uv)
+.venv/
+__pycache__/
+.pytest_cache/
