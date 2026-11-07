@@ -5,17 +5,16 @@ permalink: /resources/
 author_profile: true
 ---
 
-[This](https://spangle-crocodile-8b0.notion.site/181126a9cff88087bce2d4dfe24d2db1?v=c65e9cf6da394a50aa2cb77ff67145e1&pvs=4) is a Notion table containing all textbooks and academic papers I've read since June 2023. There are also a few videos and courses.
+{% include zotero-library.html %}
 
 ## Where to find good papers
 
-- [quantamagazine](https://www.quantamagazine.org) - for CS and Math. Blog post about academic papers. 
+- [quantamagazine](https://www.quantamagazine.org) - for CS and Math. Blog post about academic papers.
   - They also have a very interesting [YouTube channel](https://www.youtube.com/@QuantaScienceChannel) - my favorites are the yearly reviews in Math, CS, and Physics.
 - [arxiv](https://arxiv.org/) - Thorough repository for Math, CS, and Quantitative Finance papers.
 - [jstor](https://www.jstor.org/) - High quality academic papers with detailed querying options so you can search for exactly what you want. *Requires school login.*
 - [google scholar](https://scholar.google.com/) - The standard free search service for academic content.
 - [github.com/papers-we-love](https://github.com/papers-we-love/papers-we-love) - Amazing curated list of papers that cover the entire breadth of CS.
-
 
 ## How to read papers
 

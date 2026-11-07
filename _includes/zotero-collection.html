@@ -1,0 +1,22 @@
+{%- comment -%}
+  One Zotero collection, then its subcollections (recursive). Assigned variables are
+  global in Liquid and get overwritten by the nested includes, so everything used after
+  a nested include is re-derived from the include's own parameters (include.*).
+{%- endcomment -%}
+{%- assign zc_level = include.level | default: 2 -%}
+{%- assign zc_items = site.data.zotero.items | where_exp: "i", "i.collections contains include.coll.key" -%}
+<section class="zcoll zcoll--{{ zc_level }}" id="{{ include.coll.name | slugify }}">
+<h{{ zc_level }} class="zcoll__title">{{ include.coll.name | escape }} <span class="zcoll__count">{{ include.coll.count }}</span></h{{ zc_level }}>
+{%- if zc_items.size > 0 %}
+<ul class="zlist">
+{%- for item in zc_items %}
+{% include zotero-item.html item=item %}
+{%- endfor %}
+</ul>
+{%- endif %}
+{%- assign zc_subs = site.data.zotero.collections | where: "parent", include.coll.key -%}
+{%- for sub in zc_subs %}
+{%- assign zc_next = include.level | default: 2 | plus: 1 %}
+{% include zotero-collection.html coll=sub level=zc_next %}
+{%- endfor %}
+</section>

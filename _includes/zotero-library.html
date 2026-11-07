@@ -1,0 +1,63 @@
+{%- comment -%}
+  The Resources page body, built from _data/zotero.json (written by scripts/fetch_zotero.py).
+{%- endcomment -%}
+{%- assign z = site.data.zotero -%}
+{%- assign finished = z.items | where_exp: "i", "i.finished != ''" | sort: "finished" | reverse -%}
+{%- assign tops = z.collections | where_exp: "c", "c.parent == nil" -%}
+<div class="zlib">
+<p class="zlib__intro">Everything in my <a href="https://www.zotero.org/">Zotero</a> library: {{ z.items.size }} papers, books, and talks, {{ finished.size }} marked as read. Synced from Zotero daily; last updated {{ z.generated | date: "%B %-d, %Y" }}.</p>
+<nav class="zlib__toc">{% for c in tops %}<a href="#{{ c.name | slugify }}">{{ c.name | escape }}</a>{% endfor %}<a href="#recently-finished">Recently finished</a></nav>
+<div class="zlib__filter">
+<input type="search" id="zfilter" placeholder="Filter by title, author, or tag…" aria-label="Filter the library">
+<span id="zfilter-status" aria-live="polite"></span>
+</div>
+<section class="zcoll zcoll--2" id="recently-finished">
+<h2 class="zcoll__title">Recently finished <span class="zcoll__count">{{ finished.size }}</span></h2>
+<ul class="zlist zlist--log">
+{%- for item in finished limit: 10 %}
+{% include zotero-item.html item=item date=true %}
+{%- endfor %}
+</ul>
+</section>
+{%- for c in tops %}
+{% include zotero-collection.html coll=c level=2 %}
+{%- endfor %}
+{%- assign unfiled = z.items | where_exp: "i", "i.collections.size == 0" -%}
+{%- if unfiled.size > 0 %}
+<section class="zcoll zcoll--2" id="unfiled">
+<h2 class="zcoll__title">Unfiled <span class="zcoll__count">{{ unfiled.size }}</span></h2>
+<ul class="zlist">{% for item in unfiled %}{% include zotero-item.html item=item %}{% endfor %}</ul>
+</section>
+{%- endif %}
+</div>
+<script>
+(function () {
+  var input = document.getElementById("zfilter");
+  var status = document.getElementById("zfilter-status");
+  var items = document.querySelectorAll(".zlib .zitem");
+  var sections = Array.prototype.slice.call(document.querySelectorAll(".zlib .zcoll")).reverse();
+  function apply() {
+    var q = input.value.trim().toLowerCase();
+    var tag = q.indexOf("#") === 0 ? "|" + q.slice(1) + "|" : null;
+    var shown = 0;
+    items.forEach(function (li) {
+      var ok = !q || (tag ? li.dataset.tags.toLowerCase().indexOf(tag) !== -1 : li.dataset.search.indexOf(q) !== -1);
+      li.hidden = !ok;
+      if (ok && !li.classList.contains("zitem--log")) shown++;
+    });
+    /* hide sections (deepest first) that have no visible items left */
+    sections.forEach(function (s) {
+      s.hidden = q && !s.querySelector(".zitem:not([hidden])");
+    });
+    status.textContent = q ? shown + " match" + (shown === 1 ? "" : "es") : "";
+  }
+  input.addEventListener("input", apply);
+  document.querySelector(".zlib").addEventListener("click", function (e) {
+    var t = e.target.closest(".ztag");
+    if (!t) return;
+    input.value = "#" + t.dataset.tag;
+    apply();
+    input.scrollIntoView({ behavior: "smooth", block: "center" });
+  });
+})();
+</script>

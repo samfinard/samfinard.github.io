@@ -1,0 +1,10 @@
+{%- assign item = include.item -%}
+{%- capture search -%}{{ item.title }} {{ item.authors }} {{ item.venue }} {{ item.year }} {{ item.tags | join: ' ' }}{%- endcapture -%}
+<li class="zitem{% if include.date %} zitem--log{% endif %}" data-tags="|{{ item.tags | join: '|' | escape }}|" data-search="{{ search | downcase | escape }}">
+{% if include.date %}<span class="zitem__date">{{ item.finished | date: "%b %Y" }}</span>{% endif %}<span class="zitem__title">{% if item.url != "" %}<a href="{{ item.url }}">{{ item.title | escape }}</a>{% else %}{{ item.title | escape }}{% endif %}</span>
+{%- if item.authors != "" or item.year != "" or item.venue != "" %} <span class="zitem__meta">{{ item.authors | escape }}{% if item.year != "" %}{% if item.authors != "" %}, {% endif %}{{ item.year }}{% endif %}{% if item.venue != "" %}{% if item.authors != "" or item.year != "" %} · {% endif %}<em>{{ item.venue | escape }}</em>{% endif %}</span>{% endif %}
+{%- if item.finished != "" %} <span class="zitem__read" title="Finished {{ item.finished }}">read</span>{% endif %}
+{%- if item.summary != "" %}<span class="zitem__summary">{{ item.summary | escape }}</span>{% endif %}
+{%- assign shown = item.tags | where_exp: "t", "t != 'read'" -%}
+{%- if shown.size > 0 %}<span class="zitem__tags">{% for t in shown %}<button type="button" class="ztag" data-tag="{{ t | escape }}">{{ t | escape }}</button>{% endfor %}</span>{% endif %}
+</li>

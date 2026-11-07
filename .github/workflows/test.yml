@@ -1,9 +1,13 @@
 name: Test and deploy
 
-# Every push and PR runs the tests. Only a push to master whose tests pass is deployed.
+# Every push and PR runs the tests. Only master is deployed: on push, on the daily
+# schedule (which refreshes the Resources page from Zotero), or when run by hand.
 on:
   push:
   pull_request:
+  schedule:
+    - cron: "23 11 * * *" # daily 11:23 UTC
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,10 +15,20 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
     steps:
       - uses: actions/checkout@v5
 
       - uses: astral-sh/setup-uv@v6
+
+      # Overwrite the committed _data/zotero.json snapshot with the live library.
+      # Skipped when the secret isn't available (e.g. PRs from forks); if Zotero is
+      # down the build carries on with the committed snapshot.
+      - name: Refresh Zotero data
+        if: env.ZOTERO_API_KEY != ''
+        continue-on-error: true
+        run: uv run python scripts/fetch_zotero.py
 
       - name: Source checks
         run: uv run --locked pytest -v
@@ -33,11 +47,11 @@ jobs:
         run: bundle exec htmlproofer _site --disable-external --no-enforce-https
 
       - uses: actions/upload-pages-artifact@v4
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
 
   deploy:
     needs: test
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     permissions:
       pages: write

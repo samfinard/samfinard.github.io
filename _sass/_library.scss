@@ -1,0 +1,142 @@
+/* ==========================================================================
+   RESOURCES: Zotero library (_includes/zotero-*.html)
+   ========================================================================== */
+
+.zlib__intro {
+  color: $gray;
+}
+
+.zlib__toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em 1em;
+  margin-bottom: 1em;
+  font-size: $type-size-6;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.zlib__filter {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding: 0.5em 0;
+  background: $background-color;
+
+  input {
+    width: 100%;
+    max-width: 32em;
+    padding: 0.4em 0.6em;
+    font-size: $type-size-6;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+  }
+
+  #zfilter-status {
+    margin-left: 0.75em;
+    font-size: $type-size-6;
+    color: $gray;
+  }
+}
+
+.zcoll__title {
+  margin-bottom: 0.4em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid $border-color;
+}
+
+.zcoll--3 .zcoll__title,
+.zcoll--4 .zcoll__title {
+  border-bottom: 0;
+  font-size: $type-size-5;
+}
+
+.zcoll--3,
+.zcoll--4 {
+  margin-left: 0.25em;
+}
+
+.zcoll__count {
+  font-size: $type-size-7;
+  font-weight: normal;
+  color: $gray;
+}
+
+.zlist {
+  margin: 0 0 1em;
+  padding: 0;
+  list-style: none;
+}
+
+.zitem {
+  margin: 0;
+  padding: 0.45em 0;
+  font-size: $type-size-6;
+  line-height: 1.45;
+  border-bottom: 1px dotted $border-color;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.zitem__title {
+  font-weight: 600;
+}
+
+.zitem__meta {
+  color: $gray;
+}
+
+.zitem__date {
+  display: inline-block;
+  min-width: 5.5em;
+  color: $gray;
+  font-variant-numeric: tabular-nums;
+}
+
+.zitem__read {
+  margin-left: 0.35em;
+  padding: 0 0.4em;
+  font-size: $type-size-8;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #2f7d4f;
+  border: 1px solid #2f7d4f;
+  border-radius: 3px;
+  vertical-align: 1px;
+}
+
+.zitem__summary {
+  display: block;
+  margin-top: 0.15em;
+  color: $text-color;
+}
+
+.zitem__tags {
+  display: block;
+  margin-top: 0.2em;
+}
+
+.ztag {
+  margin: 0 0.3em 0.2em 0;
+  padding: 0 0.45em;
+  font-family: inherit;
+  font-size: $type-size-8;
+  color: $dark-gray;
+  background: $lighter-gray;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+
+  &:hover {
+    background: mix(#000, $lighter-gray, 8%);
+  }
+}
+
+// the filter hides items/sections with the hidden attribute; the theme's display rules would otherwise win
+.zlib [hidden] {
+  display: none !important;
+}

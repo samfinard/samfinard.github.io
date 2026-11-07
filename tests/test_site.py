@@ -1,5 +1,6 @@
 """Source-level checks for the site. Run with: uv run pytest"""
 
+import json
 import re
 from fnmatch import fnmatch
 from pathlib import Path
@@ -152,3 +153,37 @@ def test_homepage_exists():
 def test_author_avatar_exists():
     avatar = AVATAR.search(config_text()).group(1)
     assert (ROOT / "images" / avatar).is_file(), f"images/{avatar} missing"
+
+
+ZOTERO = ROOT / "_data" / "zotero.json"
+
+
+def test_zotero_snapshot_is_consistent():
+    """_data/zotero.json (written by scripts/fetch_zotero.py) is what the Resources page renders."""
+    data = json.loads(ZOTERO.read_text(encoding="utf-8"))
+    keys = {c["key"] for c in data["collections"]}
+    assert data["items"], "Zotero snapshot has no items"
+    for c in data["collections"]:
+        assert c["parent"] is None or c["parent"] in keys, f"collection {c['name']} has unknown parent"
+    for item in data["items"]:
+        assert item["title"], item
+        assert set(item["collections"]) <= keys, f"{item['title']} is in an unknown collection"
+        assert not item["finished"] or re.fullmatch(r"\d{4}-\d{2}-\d{2}", item["finished"]), item["title"]
+
+
+def test_fetch_zotero_normalize():
+    import importlib.util
+
+    spec = importlib.util.spec_from_file_location("fetch_zotero", ROOT / "scripts" / "fetch_zotero.py")
+    fz = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(fz)
+    rec = fz.normalize({
+        "key": "K", "itemType": "journalArticle", "title": "T", "date": "June 2014", "DOI": "10.1/x",
+        "creators": [{"creatorType": "author", "firstName": "A", "lastName": "B"}],
+        "tags": [{"tag": "read"}, {"tag": "auto", "type": 1}],
+        "extra": "arXiv: 123\nFinished: 2024-06-18\nSummary: good",
+    })
+    assert rec["year"] == "2014" and rec["url"] == "https://doi.org/10.1/x" and rec["authors"] == "A B"
+    assert rec["tags"] == ["read"] and rec["finished"] == "2024-06-18" and rec["summary"] == "good"
+    loose = fz.normalize({"key": "L", "itemType": "attachment", "filename": "oop_patterns.pdf"})
+    assert loose["title"] == "oop patterns" and loose["url"] == ""

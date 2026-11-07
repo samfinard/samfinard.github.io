@@ -1,0 +1,1855 @@
+{
+ "generated": "2026-11-07",
+ "collections": [
+  {
+   "key": "5UIA8J6V",
+   "name": "AI & ML",
+   "parent": "D7DA96PK",
+   "count": 19
+  },
+  {
+   "key": "RY3K5Y6Y",
+   "name": "Algorithms & Data Structures",
+   "parent": "D7DA96PK",
+   "count": 12
+  },
+  {
+   "key": "UVM998VT",
+   "name": "Books",
+   "parent": null,
+   "count": 5
+  },
+  {
+   "key": "D7DA96PK",
+   "name": "Computer Science",
+   "parent": null,
+   "count": 49
+  },
+  {
+   "key": "M3HXWIK8",
+   "name": "Creativity",
+   "parent": null,
+   "count": 20
+  },
+  {
+   "key": "N2SBIIJF",
+   "name": "Data & Databases",
+   "parent": "D7DA96PK",
+   "count": 10
+  },
+  {
+   "key": "LVVMBGYM",
+   "name": "Derivatives & Volatility",
+   "parent": "IIPB5SQY",
+   "count": 2
+  },
+  {
+   "key": "37UAPS2K",
+   "name": "Econometrics & Time Series",
+   "parent": "IIPB5SQY",
+   "count": 3
+  },
+  {
+   "key": "IIPB5SQY",
+   "name": "Finance",
+   "parent": null,
+   "count": 12
+  },
+  {
+   "key": "QJA7PLZ4",
+   "name": "Fixed Income & Rates",
+   "parent": "IIPB5SQY",
+   "count": 2
+  },
+  {
+   "key": "5627SDTP",
+   "name": "Interview Prep",
+   "parent": null,
+   "count": 4
+  },
+  {
+   "key": "XG77E62E",
+   "name": "Macro & Monetary",
+   "parent": "IIPB5SQY",
+   "count": 1
+  },
+  {
+   "key": "VLUN8XT6",
+   "name": "Math",
+   "parent": null,
+   "count": 4
+  },
+  {
+   "key": "UUS8FWYX",
+   "name": "Quant Methods",
+   "parent": "IIPB5SQY",
+   "count": 3
+  },
+  {
+   "key": "SR3G9H4P",
+   "name": "Repo & Funding",
+   "parent": "IIPB5SQY",
+   "count": 1
+  },
+  {
+   "key": "NNI277QF",
+   "name": "Software Engineering",
+   "parent": "D7DA96PK",
+   "count": 6
+  },
+  {
+   "key": "42THE3QQ",
+   "name": "Systems & OS",
+   "parent": "D7DA96PK",
+   "count": 2
+  }
+ ],
+ "items": [
+  {
+   "key": "EH72Z7BU",
+   "type": "videoRecording",
+   "title": "#01 - Relational Model & Algebra (CMU Intro to Database Systems)",
+   "authors": "Andy Pavlo",
+   "year": "2024",
+   "venue": "CMU Database Group",
+   "edition": "",
+   "url": "https://www.youtube.com/watch?v=APqWIjtzNGE",
+   "tags": [
+    "course",
+    "databases",
+    "read"
+   ],
+   "collections": [
+    "N2SBIIJF"
+   ],
+   "finished": "2024-10-14",
+   "summary": "First 4 lectures of Andy Pavlo's database class at Carnegie Mellon (playlist with slides and notes)."
+  },
+  {
+   "key": "LJPCVIM2",
+   "type": "webpage",
+   "title": "4. Fully Connected Deep Networks - TensorFlow for Deep Learning [Book]",
+   "authors": "",
+   "year": "",
+   "venue": "",
+   "edition": "",
+   "url": "https://www.oreilly.com/library/view/tensorflow-for-deep/9781491980446/ch04.html",
+   "tags": [
+    "Bari"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "I34QBZ95",
+   "type": "webpage",
+   "title": "50 Algorithms Every Programmer Should Know: Tackle computer science challenges with classic to modern algorithms in machine learning, software design, data systems, and cryptography|eBook",
+   "authors": "Barnes & Noble",
+   "year": "",
+   "venue": "Barnes & Noble",
+   "edition": "",
+   "url": "https://www.barnesandnoble.com/w/50-algorithms-every-programmer-should-know-imran-ahmad/1144303080",
+   "tags": [
+    "algo",
+    "reading"
+   ],
+   "collections": [
+    "RY3K5Y6Y"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "RIHLSAPP",
+   "type": "webpage",
+   "title": "A Mathematical Theory of Communication | article by Shannon | Britannica",
+   "authors": "Claude Shannon",
+   "year": "1963",
+   "venue": "",
+   "edition": "",
+   "url": "https://www.britannica.com/topic/A-Mathematical-Theory-of-Communication",
+   "tags": [],
+   "collections": [
+    "VLUN8XT6"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "ZWLYUJ58",
+   "type": "book",
+   "title": "A Practical Guide to Quantitative Finance Interviews",
+   "authors": "Xinfeng Zhou",
+   "year": "2008",
+   "venue": "",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "brainteasers",
+    "interview",
+    "probability",
+    "quant-finance"
+   ],
+   "collections": [
+    "5627SDTP"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "4QBA9T85",
+   "type": "journalArticle",
+   "title": "A Relational Model of Data for Large Shared Data Banks",
+   "authors": "E F Codd",
+   "year": "1970",
+   "venue": "",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "read"
+   ],
+   "collections": [
+    "N2SBIIJF"
+   ],
+   "finished": "2024-10-09",
+   "summary": "Origin of relational DBMS. Makes a clear separation between querying data and growth in data types/changes in data representation"
+  },
+  {
+   "key": "WE8BD5VQ",
+   "type": "journalArticle",
+   "title": "A survey on sentiment analysis methods, applications, and challenges",
+   "authors": "Mayur Wankhade, Annavarapu Chandra Sekhara Rao, Chaitanya Kulkarni",
+   "year": "2022",
+   "venue": "Artificial Intelligence Review",
+   "edition": "",
+   "url": "https://doi.org/10.1007/s10462-022-10144-1",
+   "tags": [
+    "sentiment analysis",
+    "survey",
+    "to-read"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "9SH2C7XE",
+   "type": "journalArticle",
+   "title": "Addressing for Random-Access Storage with Multiple Bucket Capacities",
+   "authors": "M. Tainiter",
+   "year": "1963",
+   "venue": "Journal of the ACM",
+   "edition": "",
+   "url": "https://doi.org/10.1145/321172.321178",
+   "tags": [
+    "hashing"
+   ],
+   "collections": [
+    "RY3K5Y6Y"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "AAVBHRBG",
+   "type": "journalArticle",
+   "title": "AI ‘breakthrough’: neural net has human-like ability to generalize language",
+   "authors": "Max Kozlov, Celeste Biever",
+   "year": "2023",
+   "venue": "Nature",
+   "edition": "",
+   "url": "https://doi.org/10.1038/d41586-023-03272-3",
+   "tags": [
+    "Bari",
+    "Nature"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "G5GZUPWR",
+   "type": "book",
+   "title": "Algorithms Illuminated (Omnibus Edition)",
+   "authors": "Tim Roughgarden",
+   "year": "2022",
+   "venue": "Soundlikeyourself Publishing",
+   "edition": "",
+   "url": "https://www.algorithmsilluminated.org/",
+   "tags": [
+    "algo",
+    "textbook"
+   ],
+   "collections": [
+    "RY3K5Y6Y"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "SJBCBW42",
+   "type": "book",
+   "title": "An introduction to quantitative finance",
+   "authors": "Stephen Blyth",
+   "year": "2014",
+   "venue": "Oxford University Press",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "derivatives",
+    "quant-finance",
+    "stochastic-calculus",
+    "textbook"
+   ],
+   "collections": [
+    "UUS8FWYX"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "NCK6D6LB",
+   "type": "book",
+   "title": "An Introduction to the USA Computing Olympiad",
+   "authors": "Darren Yao",
+   "year": "",
+   "venue": "",
+   "edition": "",
+   "url": "",
+   "tags": [],
+   "collections": [
+    "RY3K5Y6Y"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "F8UZGYD6",
+   "type": "book",
+   "title": "Analysis of Financial Time Series",
+   "authors": "Ruey S Tsay",
+   "year": "2010",
+   "venue": "Wiley",
+   "edition": "3",
+   "url": "",
+   "tags": [
+    "econometrics",
+    "textbook",
+    "time-series",
+    "volatility"
+   ],
+   "collections": [
+    "37UAPS2K"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "BHGCFGXL",
+   "type": "journalArticle",
+   "title": "Architecture of a Database System",
+   "authors": "Joseph M. Hellerstein, Michael Stonebraker, James Hamilton",
+   "year": "2007",
+   "venue": "Foundations and Trends in Databases",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "databases",
+    "read"
+   ],
+   "collections": [
+    "N2SBIIJF"
+   ],
+   "finished": "2024-09-17",
+   "summary": "Outlines 5 main components of relational DBMS"
+  },
+  {
+   "key": "E2DVT3PY",
+   "type": "book",
+   "title": "Artificial intelligence: a modern approach",
+   "authors": "Stuart J. Russell, Peter Norvig",
+   "year": "2021",
+   "venue": "Pearson",
+   "edition": "Fourth edition",
+   "url": "",
+   "tags": [],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "KL783K6N",
+   "type": "book",
+   "title": "Atomic habits: tiny changes, remarkable results : an easy & proven way to build good habits & break bad ones",
+   "authors": "James Clear",
+   "year": "2018",
+   "venue": "Avery, an imprint of Penguin Random House",
+   "edition": "",
+   "url": "",
+   "tags": [],
+   "collections": [
+    "UVM998VT"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "PACRLQDT",
+   "type": "preprint",
+   "title": "Attention Is All You Need",
+   "authors": "Ashish Vaswani et al.",
+   "year": "2017",
+   "venue": "arXiv",
+   "edition": "",
+   "url": "https://arxiv.org/abs/1706.03762",
+   "tags": [
+    "deep learning",
+    "LLM",
+    "read",
+    "transformers"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "2023-08-24",
+   "summary": "Quintessential paper that introduced transformers to the world"
+  },
+  {
+   "key": "WQTLBKNA",
+   "type": "webpage",
+   "title": "Big-C Creativity - an overview | ScienceDirect Topics",
+   "authors": "",
+   "year": "",
+   "venue": "",
+   "edition": "",
+   "url": "https://www.sciencedirect.com/topics/psychology/big-c-creativity",
+   "tags": [
+    "cited",
+    "sciencedirect"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "QX6H2MIV",
+   "type": "book",
+   "title": "Clean code: a handbook of agile software craftsmanship",
+   "authors": "Robert C. Martin",
+   "year": "2012",
+   "venue": "Prentice Hall",
+   "edition": "Repr.",
+   "url": "",
+   "tags": [],
+   "collections": [
+    "NNI277QF"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "GDWP7VBD",
+   "type": "book",
+   "title": "Computer Age Statistical Inference: Algorithms, Evidence, and Data Science",
+   "authors": "Bradley Efron, Trevor Hastie",
+   "year": "2016",
+   "venue": "Cambridge University Press",
+   "edition": "1",
+   "url": "https://doi.org/10.1017/CBO9781316576533",
+   "tags": [],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "LPUH2W6D",
+   "type": "book",
+   "title": "Concrete mathematics: a foundation for computer science",
+   "authors": "Ronald Lewis Graham, Donald Ervin Knuth, Oren Patashnik",
+   "year": "2017",
+   "venue": "Addison-Wesley",
+   "edition": "2. ed., 31. print",
+   "url": "",
+   "tags": [],
+   "collections": [
+    "VLUN8XT6"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "46YKEYF2",
+   "type": "bookSection",
+   "title": "Creativity",
+   "authors": "Elliot Samuel Paul et al.",
+   "year": "2023",
+   "venue": "The Stanford Encyclopedia of Philosophy",
+   "edition": "Spring 2023",
+   "url": "https://plato.stanford.edu/archives/spr2023/entries/creativity/",
+   "tags": [
+    "cited",
+    "philosophy",
+    "stanford"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "BW78RGRC",
+   "type": "book",
+   "title": "Creativity 101",
+   "authors": "James C. Kaufman",
+   "year": "2016",
+   "venue": "Springer Publishing Company",
+   "edition": "Second edition",
+   "url": "",
+   "tags": [
+    "cited"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "QWH9P82N",
+   "type": "book",
+   "title": "Creativity: the psychology of discovery and invention",
+   "authors": "Mihaly Csikszentmihalyi",
+   "year": "2013",
+   "venue": "Harper Perennial Modern Classics",
+   "edition": "First Harper Perennial modern classics edition",
+   "url": "",
+   "tags": [
+    "cited",
+    "psychology",
+    "reading"
+   ],
+   "collections": [
+    "M3HXWIK8",
+    "UVM998VT"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "UERCEAFV",
+   "type": "journalArticle",
+   "title": "Deep learning",
+   "authors": "Yann LeCun, Yoshua Bengio, Geoffrey Hinton",
+   "year": "2015",
+   "venue": "Nature",
+   "edition": "",
+   "url": "https://doi.org/10.1038/nature14539",
+   "tags": [
+    "bedrock",
+    "deep learning",
+    "read",
+    "red",
+    "survey"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "2023-08-03",
+   "summary": "Survey paper of deep learning by the 3 godfathers of AI"
+  },
+  {
+   "key": "IYG6PXEX",
+   "type": "preprint",
+   "title": "Densely Connected Convolutional Networks",
+   "authors": "Gao Huang et al.",
+   "year": "2018",
+   "venue": "arXiv",
+   "edition": "",
+   "url": "http://arxiv.org/abs/1608.06993",
+   "tags": [
+    "deep learning",
+    "to-read"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "AHKBSICX",
+   "type": "book",
+   "title": "Designing Data-Intensive Applications",
+   "authors": "Martin Kleppmann",
+   "year": "2017",
+   "venue": "O'Reilly Media",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "data-engineering",
+    "databases",
+    "distributed-systems"
+   ],
+   "collections": [
+    "N2SBIIJF"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "SPT9V3GV",
+   "type": "webpage",
+   "title": "Dobb·E: On Bringing Robots Home",
+   "authors": "Lerrel Pinto",
+   "year": "2023",
+   "venue": "Dobb·E: On Bringing Robots Home",
+   "edition": "",
+   "url": "https://dobb-e.com/",
+   "tags": [
+    "red",
+    "robotics"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "EITESGKT",
+   "type": "book",
+   "title": "Fifty Challenging Problems in Probability with Solutions",
+   "authors": "Frederick Mosteller",
+   "year": "",
+   "venue": "",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "interview",
+    "probability"
+   ],
+   "collections": [
+    "5627SDTP"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "2AXSPAVQ",
+   "type": "book",
+   "title": "Fixed-Income Securities and Derivatives Handbook: Analysis and Valuation",
+   "authors": "Moorad Choudhry",
+   "year": "2005",
+   "venue": "Bloomberg Press",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "bonds",
+    "derivatives",
+    "fixed-income",
+    "swaps",
+    "textbook"
+   ],
+   "collections": [
+    "QJA7PLZ4"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "ZLWSGU6Z",
+   "type": "book",
+   "title": "Fluent Python",
+   "authors": "Luciano Ramalho",
+   "year": "2022",
+   "venue": "O'Reilly Media",
+   "edition": "2",
+   "url": "",
+   "tags": [
+    "python"
+   ],
+   "collections": [
+    "NNI277QF"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "2CDCR69F",
+   "type": "conferencePaper",
+   "title": "Generating text with recurrent neural networks",
+   "authors": "Ilya Sutskever, James Martens, Geoffrey Hinton",
+   "year": "2011",
+   "venue": "Proceedings of the 28th International Conference on International Conference on Machine Learning",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "bedrock",
+    "NN",
+    "read",
+    "red",
+    "Sutskever"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "2023-06-21",
+   "summary": "Early and interesting application of RNNs - features Ilya before OpenAI"
+  },
+  {
+   "key": "H43C3TRW",
+   "type": "webpage",
+   "title": "Grokking the Coding Interview Patterns in Python",
+   "authors": "",
+   "year": "",
+   "venue": "Educative",
+   "edition": "",
+   "url": "https://www.educative.io/courses/grokking-coding-interview-patterns-python",
+   "tags": [
+    "course",
+    "interview"
+   ],
+   "collections": [
+    "5627SDTP"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "FMBLRLPX",
+   "type": "book",
+   "title": "Hands-On Machine Learning with Scikit-Learn and TensorFlow",
+   "authors": "Aurélien Géron",
+   "year": "2017",
+   "venue": "O'Reilly Media",
+   "edition": "",
+   "url": "",
+   "tags": [],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "5MKFYCG4",
+   "type": "book",
+   "title": "Heard on the Street: Quantitative Questions from Wall Street Job Interviews",
+   "authors": "Timothy Falcon Crack",
+   "year": "",
+   "venue": "",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "brainteasers",
+    "interview",
+    "quant-finance"
+   ],
+   "collections": [
+    "5627SDTP"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "IJMXT6WV",
+   "type": "webpage",
+   "title": "How Does AI ‘Think’? We Are Only Starting to Understand That",
+   "authors": "Christopher Mims",
+   "year": "",
+   "venue": "WSJ",
+   "edition": "",
+   "url": "https://www.wsj.com/tech/ai/how-does-ai-think-95f6381b",
+   "tags": [
+    "Bari",
+    "Meta"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "BCSX6IW3",
+   "type": "conferencePaper",
+   "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+   "authors": "Alex Krizhevsky et al.",
+   "year": "2012",
+   "venue": "Advances in Neural Information Processing Systems",
+   "edition": "",
+   "url": "https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf",
+   "tags": [
+    "bedrock",
+    "deep learning",
+    "NN",
+    "red",
+    "Sutskever"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "2A2A5BLM",
+   "type": "webpage",
+   "title": "Improving language understanding with unsupervised learning",
+   "authors": "",
+   "year": "",
+   "venue": "",
+   "edition": "",
+   "url": "https://openai.com/research/language-unsupervised",
+   "tags": [
+    "NN",
+    "openai",
+    "read",
+    "Sutskever"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "2023-07-14",
+   "summary": "Precursor to ChatGPT. Directly claims generative pre-training is the future."
+  },
+  {
+   "key": "VIFG46DQ",
+   "type": "book",
+   "title": "Introduction to Algorithms",
+   "authors": "Thomas H. Cormen et al.",
+   "year": "2022",
+   "venue": "MIT Press",
+   "edition": "4",
+   "url": "",
+   "tags": [
+    "algo",
+    "textbook"
+   ],
+   "collections": [
+    "RY3K5Y6Y"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "R7V2TQLK",
+   "type": "book",
+   "title": "Introductory Econometrics: A Modern Approach",
+   "authors": "Jeffrey M Wooldridge",
+   "year": "2012",
+   "venue": "Cengage Learning",
+   "edition": "5",
+   "url": "",
+   "tags": [
+    "econometrics",
+    "regression",
+    "textbook"
+   ],
+   "collections": [
+    "37UAPS2K"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "HNSQKEA7",
+   "type": "videoRecording",
+   "title": "Is the Future of Linear Algebra.. Random?",
+   "authors": "",
+   "year": "2024",
+   "venue": "Mutual Information",
+   "edition": "",
+   "url": "https://www.youtube.com/watch?v=6htbyY3rH1w",
+   "tags": [
+    "linear-algebra",
+    "read",
+    "video"
+   ],
+   "collections": [
+    "VLUN8XT6"
+   ],
+   "finished": "2024-11-05",
+   "summary": "Discusses why Random Linear Algebra is so performant and significant"
+  },
+  {
+   "key": "HBW9KLJX",
+   "type": "journalArticle",
+   "title": "Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks",
+   "authors": "Kaipeng Zhang et al.",
+   "year": "2016",
+   "venue": "IEEE Signal Processing Letters",
+   "edition": "",
+   "url": "https://doi.org/10.1109/LSP.2016.2603342",
+   "tags": [
+    "Octavate",
+    "red"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "4BY2NFSP",
+   "type": "conferencePaper",
+   "title": "Language Models are Few-Shot Learners",
+   "authors": "Tom Brown et al.",
+   "year": "2020",
+   "venue": "Advances in Neural Information Processing Systems",
+   "edition": "",
+   "url": "https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+   "tags": [
+    "NN",
+    "openai",
+    "Sutskever"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "67VAZ9KT",
+   "type": "journalArticle",
+   "title": "Large Language Models and the Reverse Turing Test",
+   "authors": "Terrence J. Sejnowski",
+   "year": "2023",
+   "venue": "Neural computation",
+   "edition": "",
+   "url": "https://doi.org/10.1162/neco_a_01563",
+   "tags": [
+    "Kartik"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "YUK9BKNY",
+   "type": "preprint",
+   "title": "Large Language Models are Zero-Shot Reasoners",
+   "authors": "Takeshi Kojima et al.",
+   "year": "2023",
+   "venue": "arXiv",
+   "edition": "",
+   "url": "https://doi.org/10.48550/arXiv.2205.11916",
+   "tags": [
+    "GPT",
+    "openai"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "4LDU8FUH",
+   "type": "preprint",
+   "title": "Large Language Models on Graphs: A Comprehensive Survey",
+   "authors": "Bowen Jin et al.",
+   "year": "2023",
+   "venue": "arXiv",
+   "edition": "",
+   "url": "https://doi.org/10.48550/arXiv.2312.02783",
+   "tags": [
+    "graph",
+    "LLM",
+    "survey",
+    "to-read"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "EWPRPR7Q",
+   "type": "preprint",
+   "title": "Learning to Generate Reviews and Discovering Sentiment",
+   "authors": "Alec Radford, Rafal Jozefowicz, Ilya Sutskever",
+   "year": "2017",
+   "venue": "arXiv",
+   "edition": "",
+   "url": "http://arxiv.org/abs/1704.01444",
+   "tags": [],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "AUPM9JKJ",
+   "type": "conferencePaper",
+   "title": "MapReduce: Simplified Data Processing on Large Clusters",
+   "authors": "Jeffrey Dean, Sanjay Ghemawat",
+   "year": "2004",
+   "venue": "OSDI'04: Sixth Symposium on Operating System Design and Implementation",
+   "edition": "",
+   "url": "https://research.google.com/archive/mapreduce-osdi04.pdf",
+   "tags": [
+    "data-engineering",
+    "distributed-systems",
+    "read"
+   ],
+   "collections": [
+    "N2SBIIJF"
+   ],
+   "finished": "2023-08-25",
+   "summary": "Programming model for processing large datasets that don't fit into memory"
+  },
+  {
+   "key": "WVEBIWZ5",
+   "type": "journalArticle",
+   "title": "Mastering the game of Go with deep neural networks and tree search",
+   "authors": "David Silver et al.",
+   "year": "2016",
+   "venue": "Nature",
+   "edition": "",
+   "url": "https://doi.org/10.1038/nature16961",
+   "tags": [
+    "Sutskever"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "7AIGU67B",
+   "type": "book",
+   "title": "Mathematical Techniques in Finance: An Introduction",
+   "authors": "Amir Sadr",
+   "year": "2022",
+   "venue": "Wiley",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "fixed-income",
+    "quant-finance",
+    "rates",
+    "textbook"
+   ],
+   "collections": [
+    "UUS8FWYX"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "JJZXB4WB",
+   "type": "book",
+   "title": "Meditations",
+   "authors": "Marcus Aurelius",
+   "year": "",
+   "venue": "",
+   "edition": "",
+   "url": "",
+   "tags": [],
+   "collections": [
+    "UVM998VT"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "LTLCJYNS",
+   "type": "journalArticle",
+   "title": "Multimodal brain data and core dimensions of creativity",
+   "authors": "Jordan Poppenk",
+   "year": "2020",
+   "venue": "Data in Brief",
+   "edition": "",
+   "url": "https://doi.org/10.1016/j.dib.2020.105176",
+   "tags": [
+    "Kartik"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "A7ZSTZPP",
+   "type": "journalArticle",
+   "title": "Nature-Inspired Algorithms from Oceans to Space: A Comprehensive Review of Heuristic and Meta-Heuristic Optimization Algorithms and Their Potential Applications in Drones",
+   "authors": "Shahin Darvishpoor et al.",
+   "year": "2023",
+   "venue": "Drones",
+   "edition": "",
+   "url": "https://doi.org/10.3390/drones7070427",
+   "tags": [
+    "bio-inspired",
+    "survey",
+    "to-read"
+   ],
+   "collections": [
+    "RY3K5Y6Y"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "ZZF9LNIH",
+   "type": "journalArticle",
+   "title": "Neuroimaging predictors of creativity in healthy adults",
+   "authors": "Adam Sunavsky, Jordan Poppenk",
+   "year": "2020",
+   "venue": "NeuroImage",
+   "edition": "",
+   "url": "https://doi.org/10.1016/j.neuroimage.2019.116292",
+   "tags": [
+    "Kartik"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "SXDKSMFV",
+   "type": "journalArticle",
+   "title": "One trillion edges: graph processing at Facebook-scale",
+   "authors": "Avery Ching et al.",
+   "year": "2015",
+   "venue": "Proceedings of the VLDB Endowment",
+   "edition": "",
+   "url": "https://doi.org/10.14778/2824032.2824077",
+   "tags": [
+    "graph",
+    "read"
+   ],
+   "collections": [
+    "N2SBIIJF"
+   ],
+   "finished": "2023-06-05",
+   "summary": "Processing massive graphs: \"1.39B active users as of 12/2014 with over 400B edges\""
+  },
+  {
+   "key": "EKB5TYIX",
+   "type": "attachment",
+   "title": "oop patterns",
+   "authors": "",
+   "year": "",
+   "venue": "",
+   "edition": "",
+   "url": "",
+   "tags": [],
+   "collections": [
+    "NNI277QF"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "HT6YFRBD",
+   "type": "book",
+   "title": "Operating System Concepts",
+   "authors": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
+   "year": "2018",
+   "venue": "Wiley",
+   "edition": "10",
+   "url": "",
+   "tags": [
+    "textbook"
+   ],
+   "collections": [
+    "42THE3QQ"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "7KZP8FE5",
+   "type": "preprint",
+   "title": "Optimal Bounds for Open Addressing Without Reordering",
+   "authors": "Martin Farach-Colton, Andrew Krapivin, William Kuszmaul",
+   "year": "2025",
+   "venue": "arXiv",
+   "edition": "",
+   "url": "https://doi.org/10.48550/arXiv.2501.02305",
+   "tags": [
+    "hashing"
+   ],
+   "collections": [
+    "RY3K5Y6Y"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "MT4MMKFE",
+   "type": "book",
+   "title": "Options, futures, and other derivatives",
+   "authors": "John Hull",
+   "year": "2012",
+   "venue": "Prentice Hall",
+   "edition": "8th ed",
+   "url": "",
+   "tags": [
+    "derivatives",
+    "futures",
+    "options",
+    "swaps",
+    "textbook"
+   ],
+   "collections": [
+    "LVVMBGYM"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "LV4M5SHC",
+   "type": "webpage",
+   "title": "Preface | Scientific DiscoveryComputational Explorations of the Creative Process | Books Gateway | MIT Press",
+   "authors": "",
+   "year": "",
+   "venue": "",
+   "edition": "",
+   "url": "https://direct.mit.edu/books/book/4759/chapter-abstract/217380/Preface?redirectedFrom=fulltext",
+   "tags": [
+    "book",
+    "CS",
+    "to-read"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "XMDZNDJU",
+   "type": "webpage",
+   "title": "Pricing and Hedging USD SOFR Interest Rate Swaps with SOFR Futures - CME Group",
+   "authors": "",
+   "year": "2025",
+   "venue": "CME Group",
+   "edition": "",
+   "url": "https://www.cmegroup.com/articles/2025/price-and-hedging-usd-sofr-interest-swaps-with-sofr-futures.html",
+   "tags": [
+    "futures",
+    "hedging",
+    "practitioner",
+    "rates",
+    "SOFR",
+    "swaps"
+   ],
+   "collections": [
+    "QJA7PLZ4"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "CA4P6D7G",
+   "type": "book",
+   "title": "Probabilistic robotics",
+   "authors": "Sebastian Thrun, Wolfram Burgard, Dieter Fox",
+   "year": "2006",
+   "venue": "MIT Press",
+   "edition": "Nachdruck",
+   "url": "",
+   "tags": [
+    "robotics",
+    "textbook"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "8RY9M6YJ",
+   "type": "report",
+   "title": "Providing OLAP to User-Analysts: An IT Mandate",
+   "authors": "E. F. Codd, S. B. Codd, C. T. Salley",
+   "year": "1993",
+   "venue": "",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "databases"
+   ],
+   "collections": [
+    "N2SBIIJF"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "2KA8FYEA",
+   "type": "book",
+   "title": "Python for Excel: a modern environment for automation and data analysis",
+   "authors": "Felix Zumstein",
+   "year": "2021",
+   "venue": "O'Reilly Media",
+   "edition": "First edition",
+   "url": "",
+   "tags": [
+    "excel",
+    "python"
+   ],
+   "collections": [
+    "NNI277QF"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "UMR9L823",
+   "type": "blogPost",
+   "title": "QueryGPT – Natural Language to SQL Using Generative AI",
+   "authors": "",
+   "year": "2024",
+   "venue": "Uber Engineering Blog",
+   "edition": "",
+   "url": "https://www.uber.com/blog/query-gpt/",
+   "tags": [
+    "LLM",
+    "read",
+    "SQL"
+   ],
+   "collections": [
+    "5UIA8J6V"
+   ],
+   "finished": "2025-02-15",
+   "summary": "Uses ChatGPT to convert natural language prompts like \"Find the number of trips completed yesterday in Seattle\" into a SQL query and an explanation of how that query was generated. Uses various specialized agents and identified 12 common foundational business domains like \"Mobility\", \"IT\", etc. which help narrow the focus for the LLM."
+  },
+  {
+   "key": "UFKTG952",
+   "type": "book",
+   "title": "Relax & win: championship performance in whatever you do",
+   "authors": "Bud Winter",
+   "year": "1981",
+   "venue": "A.S. Barnes ; Tantivy Press",
+   "edition": "1st ed",
+   "url": "",
+   "tags": [
+    "read"
+   ],
+   "collections": [
+    "UVM998VT"
+   ],
+   "finished": "2025-02-14",
+   "summary": "Why relaxation is important and techniques for how you can relax on a day-to-day basis."
+  },
+  {
+   "key": "V6SKH8PR",
+   "type": "report",
+   "title": "Repo Intermediation and Central Clearing: An Analysis of Sponsored Repo",
+   "authors": "Adam Copeland, R. Jay Kahn",
+   "year": "2024",
+   "venue": "Federal Reserve Bank of New York",
+   "edition": "",
+   "url": "https://doi.org/10.59576/sr.1140",
+   "tags": [
+    "central-clearing",
+    "Fed",
+    "funding",
+    "repo",
+    "research"
+   ],
+   "collections": [
+    "SR3G9H4P"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "IX25RPJJ",
+   "type": "book",
+   "title": "Seven Deadly Innocent Frauds of Economic Policy",
+   "authors": "Warren Mosler",
+   "year": "2010",
+   "venue": "Valance Co.",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "macro",
+    "MMT",
+    "monetary-policy"
+   ],
+   "collections": [
+    "XG77E62E"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "PLGY9J5J",
+   "type": "book",
+   "title": "Shoe dog: a memoir by the creator of Nike",
+   "authors": "Philip H. Knight",
+   "year": "2016",
+   "venue": "Scribner, an imprint of Simon & Schuster, Inc",
+   "edition": "First Scribner hardcover edition",
+   "url": "",
+   "tags": [
+    "biography",
+    "book"
+   ],
+   "collections": [
+    "UVM998VT"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "9FRZ6JM8",
+   "type": "book",
+   "title": "Statistical inference",
+   "authors": "George Casella, Roger L. Berger",
+   "year": "2002",
+   "venue": "Duxbury",
+   "edition": "2. ed",
+   "url": "",
+   "tags": [],
+   "collections": [
+    "VLUN8XT6"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "MGGYR6GS",
+   "type": "book",
+   "title": "Stochastic Finance with Python: Design Financial Models from Probabilistic Perspective",
+   "authors": "Avishek Nag",
+   "year": "2024",
+   "venue": "Apress",
+   "edition": "",
+   "url": "https://doi.org/10.1007/979-8-8688-1052-7",
+   "tags": [
+    "python",
+    "quant-finance",
+    "stochastic-calculus",
+    "textbook"
+   ],
+   "collections": [
+    "UUS8FWYX"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "TJWAGLJM",
+   "type": "journalArticle",
+   "title": "Teachers’ beliefs about creativity and its nurture: A systematic review of the recent research literature",
+   "authors": "Enikő Orsolya Bereczki, Andrea Kárpáti",
+   "year": "2018",
+   "venue": "Educational Research Review",
+   "edition": "",
+   "url": "https://doi.org/10.1016/j.edurev.2017.10.003",
+   "tags": [
+    "cited",
+    "education",
+    "sciencedirect"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "3RUVHHUU",
+   "type": "webpage",
+   "title": "Technological Creativity - an overview | ScienceDirect Topics",
+   "authors": "",
+   "year": "",
+   "venue": "",
+   "edition": "",
+   "url": "https://www.sciencedirect.com/topics/psychology/technological-creativity",
+   "tags": [
+    "cited",
+    "sciencedirect"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "FBRJXXXG",
+   "type": "webpage",
+   "title": "That moment when you’re nodding off is a sweet spot for creativity",
+   "authors": "Anne Trafton",
+   "year": "2023",
+   "venue": "MIT News | Massachusetts Institute of Technology",
+   "edition": "",
+   "url": "https://news.mit.edu/2023/sleep-sweet-spot-dreams-creativity-0515",
+   "tags": [
+    "cited",
+    "MIT"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "8I3ZNX4T",
+   "type": "book",
+   "title": "The Algorithm Design Manual",
+   "authors": "Steven S. Skiena",
+   "year": "2008",
+   "venue": "Springer London",
+   "edition": "",
+   "url": "https://doi.org/10.1007/978-1-84800-070-4",
+   "tags": [],
+   "collections": [
+    "RY3K5Y6Y"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "AHGBJCTD",
+   "type": "book",
+   "title": "The C Programming Language",
+   "authors": "Brian W. Kernighan, Dennis M. Ritchie",
+   "year": "1988",
+   "venue": "Prentice Hall",
+   "edition": "2",
+   "url": "",
+   "tags": [],
+   "collections": [
+    "42THE3QQ"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "NI8JTRHD",
+   "type": "webpage",
+   "title": "The Circuitry of Creativity: How Our Brains Innovate Thinking",
+   "authors": "Alison Koontz",
+   "year": "2019",
+   "venue": "",
+   "edition": "",
+   "url": "https://caltechletters.org/science/what-is-creativity",
+   "tags": [
+    "caltech",
+    "cited"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "DGVEW3UV",
+   "type": "webpage",
+   "title": "The Nature of Code",
+   "authors": "Daniel Shiffman",
+   "year": "",
+   "venue": "",
+   "edition": "",
+   "url": "https://natureofcode.com/",
+   "tags": [
+    "Bari",
+    "NN"
+   ],
+   "collections": [
+    "NNI277QF"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "JML9YPAK",
+   "type": "book",
+   "title": "The Nature of Creativity: Contemporary Psychological Perspectives",
+   "authors": "Robert J. Sternberg",
+   "year": "1988",
+   "venue": "CUP Archive",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "cited",
+    "psychology"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "SX9UUNWU",
+   "type": "report",
+   "title": "The PageRank Citation Ranking: Bringing Order to the Web",
+   "authors": "Lawrence Page et al.",
+   "year": "1998",
+   "venue": "Stanford InfoLab",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "graph",
+    "read"
+   ],
+   "collections": [
+    "RY3K5Y6Y"
+   ],
+   "finished": "2023-06-10",
+   "summary": "Method for ranking search results based on human interest. This algorithm is the reason for Google's early success."
+  },
+  {
+   "key": "SNPGQBSU",
+   "type": "book",
+   "title": "The pragmatic programmer, 20th anniversary edition: journey to mastery",
+   "authors": "David Thomas, Andrew Hunt",
+   "year": "2019",
+   "venue": "Addison-Wesley",
+   "edition": "Second edition",
+   "url": "",
+   "tags": [],
+   "collections": [
+    "NNI277QF"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "HML6TK6B",
+   "type": "book",
+   "title": "The volatility smile: an introduction for students and practitioners",
+   "authors": "Emanuel Derman, Michael B. Miller",
+   "year": "2016",
+   "venue": "Wiley",
+   "edition": "",
+   "url": "https://doi.org/10.1002/9781119289258",
+   "tags": [
+    "derivatives",
+    "options",
+    "textbook",
+    "volatility"
+   ],
+   "collections": [
+    "LVVMBGYM"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "89QIDH9P",
+   "type": "journalArticle",
+   "title": "Tidy Data",
+   "authors": "Hadley Wickham",
+   "year": "2014",
+   "venue": "Journal of Statistical Software",
+   "edition": "",
+   "url": "https://doi.org/10.18637/jss.v059.i10",
+   "tags": [
+    "data-engineering",
+    "read"
+   ],
+   "collections": [
+    "N2SBIIJF"
+   ],
+   "finished": "2024-06-18",
+   "summary": "How to clean and prepare data to facilitate effective analysis"
+  },
+  {
+   "key": "YK2YGTRM",
+   "type": "preprint",
+   "title": "Time Series Analysis and Modeling to Forecast: a Survey",
+   "authors": "Fatoumata Dama, Christine Sinoquet",
+   "year": "2021",
+   "venue": "arXiv",
+   "edition": "",
+   "url": "https://doi.org/10.48550/arXiv.2104.00164",
+   "tags": [
+    "reading",
+    "survey",
+    "time series analysis",
+    "time-series"
+   ],
+   "collections": [
+    "37UAPS2K",
+    "N2SBIIJF"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "C5BTJ8CH",
+   "type": "journalArticle",
+   "title": "Towards a neurobiology of creativity in nonhuman animals.",
+   "authors": "Allison B. Kaufman et al.",
+   "year": "2011",
+   "venue": "Journal of Comparative Psychology",
+   "edition": "",
+   "url": "https://doi.org/10.1037/a0023147",
+   "tags": [],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "BL8HZL2T",
+   "type": "webpage",
+   "title": "Towards a Real-Time Decoding of Images from Brain Activity",
+   "authors": "Yohann Benchetrit, Hubert Jacob Banville, Jean-Rémi King",
+   "year": "",
+   "venue": "Meta AI",
+   "edition": "",
+   "url": "https://ai.meta.com/blog/brain-ai-image-decoding-meg-magnetoencephalography/",
+   "tags": [
+    "Bari",
+    "neuroscience",
+    "WSJ"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "P55UCP7Z",
+   "type": "journalArticle",
+   "title": "Traveling salesman problem heuristics: Leading methods, implementations and latest advances",
+   "authors": "César Rego et al.",
+   "year": "2011",
+   "venue": "European Journal of Operational Research",
+   "edition": "",
+   "url": "https://doi.org/10.1016/j.ejor.2010.09.010",
+   "tags": [
+    "NP",
+    "survey",
+    "to-read"
+   ],
+   "collections": [
+    "RY3K5Y6Y"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "KCQLLJBF",
+   "type": "journalArticle",
+   "title": "Trust based recommender system using ant colony for trust computation",
+   "authors": "Punam Bedi, Ravish Sharma",
+   "year": "2012",
+   "venue": "Expert Systems with Applications",
+   "edition": "",
+   "url": "https://doi.org/10.1016/j.eswa.2011.07.124",
+   "tags": [
+    "Bari",
+    "bio-inspired",
+    "short"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "4YG5IZNM",
+   "type": "book",
+   "title": "Understanding ETL",
+   "authors": "Matt Palmer",
+   "year": "2024",
+   "venue": "O'Reilly Media",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "data-engineering",
+    "databases"
+   ],
+   "collections": [
+    "N2SBIIJF"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "CN3VWQHY",
+   "type": "journalArticle",
+   "title": "Understanding the relationship between mood and creativity: A meta-analysis",
+   "authors": "Mark A. Davis",
+   "year": "2009",
+   "venue": "Organizational Behavior and Human Decision Processes",
+   "edition": "",
+   "url": "https://doi.org/10.1016/j.obhdp.2008.04.001",
+   "tags": [
+    "cited",
+    "mood",
+    "to-read"
+   ],
+   "collections": [
+    "M3HXWIK8"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "I4PXV4P3",
+   "type": "journalArticle",
+   "title": "Uniform hashing is optimal",
+   "authors": "C Yao",
+   "year": "",
+   "venue": "",
+   "edition": "",
+   "url": "",
+   "tags": [
+    "hashing"
+   ],
+   "collections": [
+    "RY3K5Y6Y"
+   ],
+   "finished": "",
+   "summary": ""
+  },
+  {
+   "key": "N48QVX8E",
+   "type": "preprint",
+   "title": "Universal Optimality of Dijkstra via Beyond-Worst-Case Heaps",
+   "authors": "Bernhard Haeupler et al.",
+   "year": "2024",
+   "venue": "arXiv",
+   "edition": "",
+   "url": "http://arxiv.org/abs/2311.11793",
+   "tags": [],
+   "collections": [
+    "RY3K5Y6Y"
+   ],
+   "finished": "",
+   "summary": ""
+  }
+ ]
+}

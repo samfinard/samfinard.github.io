@@ -23,7 +23,7 @@ author:
   avatar           : "headshot.jpeg"
   name             : "Sam Finard"
   bio              : "Computer Science and Fixed Income"
-  employer         : "SMBC | 277 Park Ave"
+  employer         : "Trutino Capital | 1185 Avenue of the Americas"
   email            : "samfinard@gmail.com"
   github           : "samfinard"
   linkedin         : "sam-finard"
@@ -51,6 +51,7 @@ exclude:
   - pyproject.toml
   - uv.lock
   - tests
+  - scripts
   # JS sources (only the bundled assets/js/main.min.js is served)
   - assets/js/_main.js
   - assets/js/plugins
