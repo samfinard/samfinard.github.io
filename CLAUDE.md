@@ -19,7 +19,7 @@ uv run pytest                               # source checks (pytest in a uv env,
 uv run pytest -k test_nav_target_exists     # a single test (links/nav targets are parametrized per item)
 ```
 
-CI (`.github/workflows/test.yml`) runs on every push and PR, daily on a schedule, and on manual dispatch: the `tests/` source checks (`uv run --locked pytest`, so commit `uv.lock` with any dependency change), then `jekyll build`, then `htmlproofer _site --disable-external` to catch broken internal links and images. Its `deploy` job publishes `_site` for any non-PR run on `master` that passes. `.github/workflows/links.yml` checks external links weekly (and on manual dispatch); it ignores 403/429/999, which are bot-blocking responses from LeetCode, GitHub and LinkedIn.
+CI (`.github/workflows/test.yml`) runs on every push and PR, daily on a schedule, and on manual dispatch: the `tests/` source checks (`uv run --locked pytest`, so commit `uv.lock` with any dependency change), then `jekyll build`, then `htmlproofer _site --disable-external` to catch broken internal links and images. Its `deploy` job publishes `_site` for any non-PR run on `master` that passes.
 
 Local Jekyll needs Homebrew `ruby@3.3` on `PATH` (`/opt/homebrew/opt/ruby@3.3/bin` and `/opt/homebrew/lib/ruby/gems/3.3.0/bin`), matching CI. System Ruby 2.6 is too old, and Ruby 3.4+ fails because `github-pages` needs the no-longer-bundled `csv` gem.
 
